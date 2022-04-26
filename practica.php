@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/boostraq/css/bootstrap.css"   crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
 
-    <title>Practica</title>
+    <title>Hello</title>
 </head>
 <body>
 <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
