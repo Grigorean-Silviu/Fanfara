@@ -30,6 +30,11 @@
     left: 0;
 }
 
+.first li {
+    list-style: none;
+    padding-bottom: 30px;
+}
+
 .title {
 
     letter-spacing: 3px;

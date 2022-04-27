@@ -5,11 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="assets/css/table.css">
+    <link rel="stylesheet" href="assets/css/column.css">
+
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/boostraq/css/bootstrap.css"   crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
 
-    <title>Hello</title>
+
+    <title>Practica</title>
 </head>
 <body>
 <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
@@ -43,10 +47,10 @@
                             <a href="#" class="dropdown-item">Intra in cont</a>
                         </li>
                         <li>
-                            <a href="#" class="dropdown-item">Teorie</a>
+                            <a href="teorie.php" class="dropdown-item">Teorie</a>
                         </li>
                         <li>
-                            <a href="#" class="dropdown-item">Practica</a>
+                            <a href="practica.php" class="dropdown-item">Practica</a>
                         </li>
                     </ul>
                 </li>
@@ -65,6 +69,15 @@
 
     </div>
 </nav>
+
+<div class="header container">
+
+    <h1>Practica</h1>
+    <div class="topleft "><img class="cheiasol" style="width: 48px" src="assets/images/cheiasol.png" alt="cheia sol"></div>
+
+</div>
+
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
