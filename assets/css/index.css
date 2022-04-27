@@ -7,17 +7,21 @@ html, body {
 .header {
     background-color: #f2f2f2;
     text-align: center;
-    padding: 25px 0 ;
+    padding: 150px 0;
     font-size: 60px;
     position: relative;
     z-index: -1;
+
 
 }
 header h1{
     padding: 15px;
 }
-div.header.container{
-    margin-top: 82px;
+
+
+div a{
+    text-decoration: none;
+    color: white;
 }
 
 .topleft {
@@ -25,6 +29,7 @@ div.header.container{
     top: 8px;
     left: 16px;
     font-size: 18px;
+    margin-top: 90px;
 
 
 }
@@ -32,9 +37,6 @@ div.header.container{
     height: 80px;
     border-radius: 50%;
 }
-
-
-
 
 .imagine{
     height: 48px;
@@ -44,13 +46,11 @@ div.header.container{
     background: none;
     padding: 14px 16px;
     border: none;
-
-    outline: none;
-    display: inline-block;
     color: white;
     text-align: center;
 
-    text-decoration: none;
+
+
 }
 
 .dropdown:hover .dropbtn {
@@ -69,9 +69,6 @@ div.header.container{
 .dropdown-content a {
     color:black;
     padding: 12px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
 }
 
 .dropdown-content a:hover {
@@ -81,10 +78,7 @@ div.header.container{
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.container{
-    width: 80%;
-    margin: auto;
-}
+
 
 @media screen and (min-width: 657px) {
     .header {

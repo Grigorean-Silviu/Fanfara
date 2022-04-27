@@ -35,6 +35,14 @@
     padding-bottom: 30px;
 }
 
+.first a:hover {
+    color: #fff;
+    transition: 0.2s;
+    text-shadow: 1px 1px 20px rgba(0, 0, 0, 1);
+    text-decoration: none
+
+}
+
 .title {
 
     letter-spacing: 3px;
@@ -47,13 +55,6 @@
 
 
 .second {
-
-    color: rgb(206, 206, 206);
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-}
-
-.second2 {
 
     color: rgb(206, 206, 206);
     font-family: 'Poppins', sans-serif;
@@ -78,16 +79,15 @@
     padding-bottom: 30px;
 }
 
-.second a, .second2 a {
+.second a {
     color: rgb(206, 206, 206);
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 14px;
-    transition: 0.2s;
 }
 
-.second a:hover, .second2 a:hover {
+.second a:hover {
     color: #fff;
     transition: 0.2s;
     text-shadow: 1px 1px 20px rgba(0, 0, 0, 1);

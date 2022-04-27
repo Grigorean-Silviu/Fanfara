@@ -4,11 +4,14 @@
     <title>Despre</title>
     <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
 
-
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
     <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/table.css">
     <link rel="stylesheet" type="text/css" href="assets/css/despre.css">
     <link rel="stylesheet" type="text/css" href="assets/css/column.css">
+
+
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/boostraq/css/bootstrap.css"   crossorigin="anonymous">
 
@@ -21,57 +24,22 @@
 </head>
 <body>
 
-<nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+<nav class="navb">
     <div class="container">
-
-        <img class="imagine navbar-brand mb-0 h1" style="width: 48px" src="assets/images/logo.png" alt="logo" />
-
-        <button
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                class="navbar-toggler"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-
-
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle"
-                       id="navbarDropdown " role="button"
-                       data-bs-toggle="dropdown"
-                       aria-expanded="false">Contul meu</a>
-                    <ul class="dropdown-menu "  aria-labelledby="navbarDropdown ">
-                        <li>
-                            <a href="#" class="dropdown-item">Intra in cont</a>
-                        </li>
-                        <li>
-                            <a href="teorie.php" class="dropdown-item">Teorie</a>
-                        </li>
-                        <li>
-                            <a href="practica.php" class="dropdown-item">Practica</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-item active">
-                    <a href="contact.php" class="nav-link ">Contact</a>
-                </li>
-                <li class="nav-item active">
-                    <a href="despre.php" class="nav-link ">Despre</a>
-                </li>
-
-                <li class="nav-item active">
-                    <a href="index.php" class="nav-link ">Acasa</a>
-                </li>
-            </ul>
-        </div>
-
+        <ul class="ulnav">
+            <li><img class="imagine" src="assets/images/logo.png" alt="Trumpet"></li>
+            <li class="dropdown">
+                <button class="dropbtn">Contul meu</button>
+                <div class="dropdown-content">
+                    <a href="#">Intra in cont</a>
+                    <a href="teorie.php">Teorie</a>
+                    <a href="practica.php">Practica</a>
+                    <a href="magazin.php">Magazin de instrumente</a>
+                </div>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a class="active" href="despre.php">Despre</a></li>
+            <li><a href="index.php">Acasa</a></li>
+        </ul>
     </div>
 </nav>
 
@@ -137,41 +105,8 @@
     </div>
 </section>
 
-<!--<table class="container">
-
-    <tr>
-        <th>First Name</th>
-        <th>Last Name</th>
-        <th>Points</th>
-        <th rowspan="6">Rez</th>
-    </tr>
-    <tr>
-        <td>Peter</td>
-        <td>Griffin</td>
-        <td>$100</td>
-    </tr>
-    <tr>
-        <td>Lois</td>
-        <td>Griffin</td>
-        <td>$150</td>
-    </tr>
-    <tr>
-        <td>Joe</td>
-        <td>Swanson</td>
-        <td>$300</td>
-    </tr>
-    <tr>
-        <td>Cleveland</td>
-        <td>Brown</td>
-        <td>$250</td>
-    </tr>
-    <tr>
-        <td colspan="3">Rezultat</td>
-
-    </tr>
-
-</table>-->
 <!-- footer -->
+
 <footer class="footer-dark">
     <div class="footer-container">
         <div class="first width-33">
