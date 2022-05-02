@@ -16,6 +16,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/boostraq/css/bootstrap.css"   crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -26,16 +27,16 @@
         <ul class="ulnav">
             <li><img class="imagine" src="assets/images/logo.png" alt="Trumpet"></li>
             <li class="dropdown">
-                <button class="dropbtn">Contul meu</button>
+                <button class="dropbtn"><i class="fa fa-fw fa-user"></i>Contul meu</button>
                 <div class="dropdown-content">
                     <a href="inregistrare.php">Intra in cont</a>
                     <a href="teorie.php">Teorie</a>
                     <a href="practica.php">Practica</a>
-
+                    <a href="magazin.php">Magazin de instrumente</a>
                 </div>
-            <li><a href="contact.php">Contact</a></li>
-            <li><a href="despre.php">Despre</a></li>
-            <li><a href="index.php">Acasa</a></li>
+            <li><a href="contact.php"><i class="fa fa-fw fa-envelope"></i>Contact</a></li>
+            <li><a href="despre.php"><i class="fa fa-fw fa-question-circle"></i>Despre</a></li>
+            <li><a href="index.php"><i class="fa fa-fw fa-home"></i>Acasa</a></li>
         </ul>
     </div>
 </nav>
@@ -51,14 +52,15 @@
 <!-- footer -->
 
 <footer class="footer-dark">
+
     <div class="footer-container">
         <div class="first width-33">
             <h4 class="title">Navigare</h4>
             <ul class="colfirst">
 
-                <li><a href="index.php">Acasa</a></li>
-                <li><a href="despre.php">Despre</a></li>
-                <li><a href="contact.php">Contact</a></li>
+                <li><a href="index.php"><i class="fa fa-fw fa-home"></i>Acasa</a></li>
+                <li><a href="despre.php"><i class="fa fa-fw fa-question-circle"></i>Despre</a></li>
+                <li><a href="contact.php"><i class="fa fa-fw fa-envelope"></i>Contact</a></li>
 
             </ul>
 
@@ -68,14 +70,18 @@
             <h4 class="title">Invata</h4>
             <ul class="col">
 
-                <li><a href="teorie.php">Teorie</a></li>
-                <li><a href="practica.php">Practica</a></li>
+                <li><a href="teorie.php"><i class="fa fa-fw fa-book"></i>Teorie</a></li>
+                <li><a href="practica.php"><i class="fa fa-check-square-o"></i>Practica</a></li>
 
             </ul>
         </div>
 
         <div class="third width-33">
             <h4 class="title">Company Name</h4></div>
+
+    </div>
+
+</footer>
 
     </div>
 </footer>

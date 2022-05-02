@@ -10,9 +10,12 @@
     <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
     <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
     <link rel="stylesheet" type="text/css" href="assets/css/column.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
+
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/boostraq/css/bootstrap.css"   crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,8 +24,9 @@
 <body>
 <nav class="navb">
     <div class="container">
-        <ul class="ulnav">
-            <li><img class="imagine" src="assets/images/logo.png" alt="Trumpet"></li>
+        <ul class="ulnav" >
+        <li><img class="imagine" src="assets/images/logo.png" alt="Trumpet"></li>
+
             <li class="dropdown">
                 <button class="dropbtn">Contul meu</button>
                 <div class="dropdown-content">
@@ -33,9 +37,13 @@
             <li><a href="contact.php">Contact</a></li>
             <li><a href="despre.php">Despre</a></li>
             <li><a href="index.php">Acasa</a></li>
+
+
+
         </ul>
     </div>
 </nav>
+
 
 
 <div class="header container">
