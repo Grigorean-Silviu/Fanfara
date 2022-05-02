@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="27.04.2022">
+    <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="29.04.2022">
+      <change afterPath="$PROJECT_DIR$/inregistrare.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/inregistrare.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/magazin.php" beforeDir="false" afterPath="$PROJECT_DIR$/magazin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practica.php" beforeDir="false" afterPath="$PROJECT_DIR$/practica.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/teorie.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -132,7 +137,8 @@
       <workItem from="1650975707276" duration="252000" />
       <workItem from="1650976314012" duration="11288000" />
       <workItem from="1651067508050" duration="11759000" />
-      <workItem from="1651129314726" duration="9040000" />
+      <workItem from="1651129314726" duration="9062000" />
+      <workItem from="1651493613816" duration="379000" />
     </task>
     <task id="LOCAL-00001" summary="06/04/2022">
       <created>1649227547837</created>
@@ -337,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651092003046</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="29.04.2022">
+      <created>1651209018428</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1651209018428</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,6 +381,7 @@
     <MESSAGE value="21.04.2022" />
     <MESSAGE value="silviu" />
     <MESSAGE value="27.04.2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="27.04.2022" />
+    <MESSAGE value="29.04.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="29.04.2022" />
   </component>
 </project>

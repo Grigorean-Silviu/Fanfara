@@ -28,7 +28,7 @@
             <li class="dropdown">
                 <button class="dropbtn">Contul meu</button>
                 <div class="dropdown-content">
-                    <a href="#">Intra in cont</a>
+                    <a href="inregistrare.php">Intra in cont</a>
                     <a href="practica.php">Practica</a>
                     <a href="magazin.php">Magazin de instrumente</a>
                 </div>
