@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="02.05.2022">
-      <change afterPath="$PROJECT_DIR$/assets/css/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/boostraq/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/boostraq/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/nav.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/despre.php" beforeDir="false" afterPath="$PROJECT_DIR$/despre.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inregistrare.php" beforeDir="false" afterPath="$PROJECT_DIR$/inregistrare.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/magazin.php" beforeDir="false" afterPath="$PROJECT_DIR$/magazin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practica.php" beforeDir="false" afterPath="$PROJECT_DIR$/practica.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/teorie.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -140,7 +139,8 @@
       <workItem from="1650976314012" duration="11288000" />
       <workItem from="1651067508050" duration="11759000" />
       <workItem from="1651129314726" duration="9062000" />
-      <workItem from="1651493613816" duration="8219000" />
+      <workItem from="1651493613816" duration="18386000" />
+      <workItem from="1651641792632" duration="2777000" />
     </task>
     <task id="LOCAL-00001" summary="06/04/2022">
       <created>1649227547837</created>
@@ -359,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651494045010</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="02.05.2022">
+      <created>1651518315251</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1651518315251</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

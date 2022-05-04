@@ -22,33 +22,47 @@
 
 </head>
 <body>
-<nav class="navb">
-    <div class="container">
-        <ul class="ulnav" >
-        <li><img class="imagine" src="assets/images/logo.png" alt="Trumpet"></li>
 
+<nav class="navb" id="responsive">
+    <div class="container">
+        <ul class="ulnav">
+        <li><img class="imagine" src="assets/images/logo.png" alt="Trumpet"></li>
             <li class="dropdown">
-                <button class="dropbtn">Contul meu</button>
+                <button class="dropbtn"><i class="fa fa-fw fa-user"></i>Contul meu</button>
                 <div class="dropdown-content">
                     <a href="inregistrare.php">Intra in cont</a>
                     <a href="teorie.php">Teorie</a>
+                    <a href="practica.php">Practica</a>
                     <a href="magazin.php">Magazin de instrumente</a>
                 </div>
-            <li><a href="contact.php">Contact</a></li>
-            <li><a href="despre.php">Despre</a></li>
-            <li><a href="index.php">Acasa</a></li>
-
-
-
+            </li>
+            <li><a href="contact.php" class="active"><i class="fa fa-fw fa-envelope"></i>Contact</a></li>
+            <li><a href="despre.php"><i class="fa fa-fw fa-question-circle"></i>Despre</a></li>
+            <li><a href="index.php" ><i class="fa fa-fw fa-home "></i>Acasa</a></li>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-music"></i>
+                </a>
         </ul>
     </div>
 </nav>
 
 
 
+<script>
+    function myFunction() {
+        var x = document.getElementById("responsive");
+        if (x.className === "navb") {
+            x.className += " responsive";
+        } else {
+            x.className = "navb";
+        }
+    }
+</script>
+
+
 <div class="header container">
 
-    <h1>Practica</h1>
+    <h1>Contact</h1>
     <div class="topleft "><img class="cheiasol"  src="assets/images/cheiasol.png" alt="cheia sol"></div>
 
 </div>

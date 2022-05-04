@@ -38,6 +38,7 @@
             <li><a href="contact.php"><i class="fa fa-fw fa-envelope"></i>Contact</a></li>
             <li><a href="despre.php"><i class="fa fa-fw fa-question-circle"></i>Despre</a></li>
             <li><a href="index.php" class="active"><i class="fa fa-fw fa-home "></i>Acasa</a></li>
+            <li><a href="#"><i class="fa fa-search"></i></a></li>
         </ul>
     </div>
 </nav>
