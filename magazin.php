@@ -21,31 +21,49 @@
 </head>
 
 <body>
-
-<nav class="navb">
+<div class="topnav" id="myTopnav">
     <div class="container">
-        <ul class="ulnav">
-            <li><img class="imagine" src="assets/images/logo.png" alt="Trumpet"></li>
-            <li class="dropdown">
-                <button class="dropbtn"><i class="fa fa-fw fa-user"></i>Contul meu</button>
+        <div class="dem">
+            <img class="imagine" src="assets/images/logo.png" alt="Trumpet">
+            <div class="dropdown">
+                <button class="dropbtn">Dropdown
+                    <i class="fa fa-caret-down"></i>
+                </button>
                 <div class="dropdown-content">
                     <a href="inregistrare.php">Intra in cont</a>
                     <a href="teorie.php">Teorie</a>
                     <a href="practica.php">Practica</a>
-                    <a href="magazin.php">Magazin de instrumente</a>
+
                 </div>
-            <li><a href="contact.php"><i class="fa fa-fw fa-envelope"></i>Contact</a></li>
-            <li><a href="despre.php"><i class="fa fa-fw fa-question-circle"></i>Despre</a></li>
-            <li><a href="index.php"><i class="fa fa-fw fa-home"></i>Acasa</a></li>
-        </ul>
+            </div>
+
+            <a href="contact.php"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+            <a href="despre.php"><i class="fa fa-fw fa-question-circle"></i>Despre</a>
+            <a href="index.php" class="active"><i class="fa fa-fw fa-home "></i>Acasa</a>
+            <a href="#"><i class="fa fa-search"></i></a>
+        </div>
     </div>
-</nav>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-music"></i>
+    </a>
+</div>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
 
 
 <div class="header container">
 
     <h1>Magazin pentru instrumente</h1>
-    <div class="topleft "><img class="cheiasol" src="assets/images/cheiasol.png" alt="cheia sol"></div>
+    <div class="topleft "><img class="cheiasol"  src="assets/images/cheiasol.png" alt="cheia sol"></div>
 
 </div>
 
@@ -83,12 +101,9 @@
 
 </footer>
 
-    </div>
-</footer>
-
-
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 
 
 </body>
