@@ -1,57 +1,43 @@
+
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Locations</title>
+    <link rel="stylesheet" href="assets/css/locations.css">
+    <link rel="stylesheet" href="assets/boostraq/script.js">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="assets/boostraq/script.js" defer></script>
+</head>
 <body>
+<header>
 
-<h2>HTML Forms</h2>
+    <!--LOCATIONS FORM-->
+
+    <div class="location">
+        <form id="locationForm">
+            <label for="loc"><b>Location</b></label>
+            <input type="text" id="loc" name="Location" placeholder="Your Location..."/>
+            <button id="submitBtn">Submit</button>
+        </form>
+        <div class="card">
+            <div class="container">
+                <div class="card-list">
+                    <ul id="listElem">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-
-<p id="demo"></p>
-<button onclick="myFunction()">Barcelona</button>
-<button onclick="myFunction1()">Anzoátegui</button>
-<button onclick="myFunction2()">Caraga</button>
-<button onclick="myFunction3()">Philippines</button>
-
-<script>
-    const fruits = ["In ce tari ai fost din aceasta lisra : "];
-    let fLen = fruits.length;
-    let text = "";
-    for (i = 0; i < fLen; i++) {
-        text += fruits[i] + "<br>";
-    }
-
-    document.getElementById("demo").innerHTML = text;
-
-
-    function myFunction() {
-        fruits.push("Barcelona");
-        document.getElementById("demo").innerHTML = fruits;
-    }
-    function myFunction1() {
-        fruits.push("Anzoátegui");
-        document.getElementById("demo").innerHTML = fruits;
-    }
-    function myFunction2() {
-        fruits.push("Caraga");
-        document.getElementById("demo").innerHTML = fruits;
-    }
-    function myFunction3() {
-        fruits.push("Philippines");
-        document.getElementById("demo").innerHTML = fruits;
-    }
-
-</script>
-
-<form action="/action_page.php">
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname" value="John"><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname" value="Doe"><br><br>
-    <input type="submit" value="Submit">
-</form>
 
 
 </body>
 </html>
-
-

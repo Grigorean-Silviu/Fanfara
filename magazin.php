@@ -39,7 +39,7 @@
 
             <a href="contact.php"><i class="fa fa-fw fa-envelope"></i>Contact</a>
             <a href="despre.php"><i class="fa fa-fw fa-question-circle"></i>Despre</a>
-            <a href="index.php" class="active"><i class="fa fa-fw fa-home "></i>Acasa</a>
+            <a href="index.php" ><i class="fa fa-fw fa-home "></i>Acasa</a>
             <a href="#"><i class="fa fa-search"></i></a>
         </div>
     </div>
