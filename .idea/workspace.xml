@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="04.05.2022">
-      <change afterPath="$PROJECT_DIR$/assets/boostraq/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/locations.css" afterDir="false" />
+    <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="05.05.2022">
+      <change afterPath="$PROJECT_DIR$/assets/css/demo2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/main2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Locations.php" beforeDir="false" afterPath="$PROJECT_DIR$/Locations.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/demo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/magazin.php" beforeDir="false" afterPath="$PROJECT_DIR$/magazin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +142,7 @@
       <workItem from="1651641792632" duration="2777000" />
       <workItem from="1651645697052" duration="84000" />
       <workItem from="1651650823433" duration="671000" />
-      <workItem from="1651659809047" duration="11208000" />
+      <workItem from="1651659809047" duration="23135000" />
     </task>
     <task id="LOCAL-00001" summary="06/04/2022">
       <created>1649227547837</created>
@@ -382,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651668634187</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="05.05.2022">
+      <created>1651777907107</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1651777907107</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,6 +423,7 @@
     <MESSAGE value="29.04.2022" />
     <MESSAGE value="02.05.2022" />
     <MESSAGE value="04.05.2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="04.05.2022" />
+    <MESSAGE value="05.05.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="05.05.2022" />
   </component>
 </project>
