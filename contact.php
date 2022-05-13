@@ -75,18 +75,36 @@
     <div class="topleft "><img class="cheiasol"  src="assets/images/cheiasol.png" alt="cheia sol"></div>
 
 </div>
+
 <div class="container">
 
+<input type='text' id='q' placeholder='Write Something...'>
+<br>
+<button id='submit' onclick='submitText(q.value)'>Submit Text</button>
+<div id='responsefield'>
+</div>
+</div>
+
+<script>
+
+    function submitText(q){
+
+        var url = 'back-end.php?q='+q;
+
+        var xhr = new XMLHttpRequest();
+
+        xhr.open('GET', url, false);
+
+        xhr.send();
+
+        var response = xhr.response;
+
+        responsefield.innerHTML = response;
 
 
-<form action="back-end.php" id="ajaxform" method="post">
-        <input type="text" name="name" placeholder="Numele">
-    <br>
-        <input type="text" name="email" placeholder="email">
-    <br>
-       <input type="submit" name="submit" value="submit">
+    }
 
-</form>
+</script>
 
 
 
