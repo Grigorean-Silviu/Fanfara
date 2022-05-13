@@ -12,10 +12,13 @@
     <link rel="stylesheet" type="text/css" href="assets/css/column.css">
     <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
 
+    <link rel="stylesheet" href="assets/js/contact.js">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/boostraq/css/bootstrap.css"   crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <script src="assets/js/contact.js" defer></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -72,6 +75,20 @@
     <div class="topleft "><img class="cheiasol"  src="assets/images/cheiasol.png" alt="cheia sol"></div>
 
 </div>
+<div class="container">
+
+
+
+<form action="back-end.php" id="ajaxform" method="post">
+        <input type="text" name="name" placeholder="Numele">
+    <br>
+        <input type="text" name="email" placeholder="email">
+    <br>
+       <input type="submit" name="submit" value="submit">
+
+</form>
+
+
 
 <!-- footer -->
 

@@ -68,15 +68,17 @@
     <div class="topleft"><img class="cheiasol" src="assets/images/cheiasol.png" alt="cheia sol"></div>
 </div>
 <section class="container">
-    <h1>Istoria Instrumentelor</h1>
-    <h2>Instrumentele muzicale sunt utilizate în interpretarea compozițiilor muzicale și sunt de obicei clasificate în
+    <?php
+    echo "<h1>Istoria Instrumentelor</h1>";
+    echo "<h2>Instrumentele muzicale sunt utilizate în interpretarea compozițiilor muzicale și sunt de obicei clasificate în
         patru
         mari grupe tradiționale: cu coarde, suflători din lemn, suflători din alamă și instrumente de percuție, la care
         se
         adaugă suflători cu structură complexă și instrumentele electronice. Acestea se folosesc pentru a crea muzica,
         fiind
         făcute din plastic, sârma, pânza etc.
-    </h2>
+    </h2>";
+    ?>
 </section>
 <div class="container">
     <img class="center" src="assets/images/fanf.jpg" alt="ciocarlia">
@@ -85,8 +87,9 @@
 
 <section>
     <div class="container">
-        <h1>Istoria Muzicii</h1>
-        <h2>Antichitate: s-au păstrat puține exemple de compoziții. Acestea sunt bazate pe moduri. Instrumentele
+        <?php
+        echo "<h1>Istoria Muzicii</h1>";
+        echo "<h2>Antichitate: s-au păstrat puține exemple de compoziții. Acestea sunt bazate pe moduri. Instrumentele
             reprezentative
             ale Greciei Antice sunt lira (cu care este reprezentat Apollo) și aulos (vedeți figura). Pitagora (aprox.
             570 î.Hr.
@@ -119,7 +122,8 @@
             cultivată din secolul al XVII-lea la curțile domnești din București și Iași. Conservatorul de Muzică și
             Declamație,
             cu filiale la București și Iași, a fost înființat în anul 1864.
-        </h2>
+        </h2>";
+        ?>
 
         <img class="center1" src="assets/images/logo.png" alt="logo">
     </div>
