@@ -25,48 +25,17 @@
 </head>
 <body>
 
-<div class="topnav" id="myTopnav">
-    <div class="container">
-        <div class="dem">
-            <img class="imagine" src="assets/images/logo.png" alt="Trumpet">
-            <div class="dropdown">
-                <button class="dropbtn">Dropdown
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="inregistrare.php">Intra in cont</a>
-                    <a href="teorie.php">Teorie</a>
-                    <a href="practica.php">Practica</a>
-                    <a href="magazin.php">Magazin de instrumente</a>
-                </div>
-            </div>
-
-            <a href="contact.php"><i class="fa fa-fw fa-envelope"></i>Contact</a>
-            <a href="despre.php" class="active"><i class="fa fa-fw fa-question-circle"></i>Despre</a>
-            <a href="index.php" ><i class="fa fa-fw fa-home "></i>Acasa</a>
-            <a href="#"><i class="fa fa-search"></i></a>
-        </div>
-    </div>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-music"></i>
-    </a>
-</div>
-
-<script>
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
-</script>
+<?php include("navbar.php"); ?>
 
 <div class="header container">
+
     <h1>Despre</h1>
-    <div class="topleft"><img class="cheiasol" src="assets/images/cheiasol.png" alt="cheia sol"></div>
+    <div class="topleft "><img class="cheiasol" src="assets/images/cheiasol.png" alt="cheia sol"></div>
+
 </div>
+
+
+
 <section class="container">
     <?php
     echo "<h1>Istoria Instrumentelor</h1>";
@@ -131,37 +100,9 @@
 
 <!-- footer -->
 
-<footer class="footer-dark">
+<?php include("footer.php"); ?>
 
-    <div class="footer-container">
-        <div class="first width-33">
-            <h4 class="title">Navigare</h4>
-            <ul class="colfirst">
 
-                <li><a href="index.php"><i class="fa fa-fw fa-home"></i>Acasa</a></li>
-                <li><a href="despre.php"><i class="fa fa-fw fa-question-circle"></i>Despre</a></li>
-                <li><a href="contact.php"><i class="fa fa-fw fa-envelope"></i>Contact</a></li>
-
-            </ul>
-
-        </div>
-
-        <div class="second width-33">
-            <h4 class="title">Invata</h4>
-            <ul class="col">
-
-                <li><a href="teorie.php"><i class="fa fa-fw fa-book"></i>Teorie</a></li>
-                <li><a href="practica.php"><i class="fa fa-check-square-o"></i>Practica</a></li>
-
-            </ul>
-        </div>
-
-        <div class="third width-33">
-            <h4 class="title">Company Name</h4></div>
-
-    </div>
-
-</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
