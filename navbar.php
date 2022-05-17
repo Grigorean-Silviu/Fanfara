@@ -1,3 +1,5 @@
+<?php $activePage = basename($_SERVER['PHP_SELF'], ".php");  ?>
+
 <!DOCTYPE html>
 <html lang="ro">
 <head>
@@ -23,6 +25,7 @@
 
 <body>
 
+
 <div class="topnav" id="myTopnav">
     <div class="container">
         <div class="dem">
@@ -39,10 +42,11 @@
                 </div>
             </div>
 
-            <a href="contact.php"><i class="fa fa-fw fa-envelope"></i>Contact</a>
-            <a href="despre.php"><i class="fa fa-fw fa-question-circle"></i>Despre</a>
-            <a href="index.php" class="active"><i class="fa fa-fw fa-home "></i>Acasa</a>
-            <a href="#"><i class="fa fa-search"></i></a>
+            <a <?php if($activePage  == 'contact') {echo 'class="active"';}?> href="contact.php"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+            <a <?php if($activePage  == 'despre') {echo 'class="active"';}?> href="despre.php"><i class="fa fa-fw fa-question-circle"></i>Despre</a>
+            <a <?php if($activePage  == 'index') {echo 'class="active"';}?> href="index.php" ><i class="fa fa-fw fa-home "></i>Acasa</a>
+            <a <?php if($activePage  == '#') {echo 'class="active"';}?> href="#"><i class="fa fa-search"></i></a>
+
         </div>
     </div>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -60,6 +64,8 @@
         }
     }
 </script>
+
+
 
 
 

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ro">
 <head>
@@ -22,6 +23,7 @@
 </head>
 
 <body>
+
 
 <?php include("navbar.php"); ?>
 
