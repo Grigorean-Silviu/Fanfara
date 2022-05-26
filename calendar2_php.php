@@ -27,6 +27,7 @@ $html_title = date('Y / m', $timestamp);
 
 //use strtotime!
  $prev = date('Y-m', strtotime('-1 month', $timestamp));
+
  $next = date('Y-m', strtotime('+1 month', $timestamp));
 
            // Or
@@ -38,6 +39,8 @@ $html_title = date('Y / m', $timestamp);
 // Number of days in the month
 $day_count = date('t', $timestamp);
 
+$last_prev_day = Date("t", strtotime("first day of previous month"));
+
 // 0:Sun 1:Mon 2:Tue ...
 //$str = date('w', mktime(0, 0, 0, date('m', $timestamp), 1, date('Y', $timestamp)));
 $str = date('w', $timestamp);
@@ -48,11 +51,16 @@ $weeks = array();
 $week = '';
 
 // spatii goale cu zile din luna trecuta
-$week .= str_repeat('<td></td>', $str);
+
+
+    $week .= str_repeat('<td></td>', $str);
+
+
 
 for ( $day = 1; $day <= $day_count; $day++, $str++) {
 
-    $date = $ym . '-' . $day;
+
+    $date = $ym . "-" . $day;
 
     if ($today == $date) {
         $week .= '<td class="today">' . $day;
@@ -62,11 +70,15 @@ for ( $day = 1; $day <= $day_count; $day++, $str++) {
     $week .= '</td>';
 
     // End of the week OR End of the month
+
     if ($str % 7 == 6 || $day == $day_count) {
 
         if ($day == $day_count) {
             // spatii goale cu zile ce urmeaza
-            $week .= str_repeat('<td></td>', 6 - ($str % 7));
+            for ($j = 1; $j <=6 - ($str % 7) ; $j++) {
+
+                $week .= '<td class="lunaviitoare">' . ${j};}
+
         }
 
         $weeks[] = '<tr>' . $week . '</tr>';
@@ -100,12 +112,14 @@ for ( $day = 1; $day <= $day_count; $day++, $str++) {
             <th>F</th>
             <th>S</th>
         </tr>
+
         <?php
         foreach ($weeks as $week) {
             echo $week;
         }
         ?>
     </table>
+
 </div>
 </body>
 </html>

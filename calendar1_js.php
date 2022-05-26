@@ -32,6 +32,6 @@
     </div>
 </div>
 
-<script src="assets/js/calendar2.js"></script>
+<script src="assets/js/calendar1.js"></script>
 </body>
 </html>
