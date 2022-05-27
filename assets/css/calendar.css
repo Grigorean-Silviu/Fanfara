@@ -21,6 +21,7 @@ th:nth-of-type(1), td:nth-of-type(1) {
 th:nth-of-type(7), td:nth-of-type(7) {
     color: #4f4ff6;
 }
-.lunaviitoare{
-    background: #a6b0a6;
+.ignore{
+    opacity: 0.2;
+
 }

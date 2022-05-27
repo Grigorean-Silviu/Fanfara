@@ -53,7 +53,14 @@ $week = '';
 // spatii goale cu zile din luna trecuta
 
 
-    $week .= str_repeat('<td></td>', $str);
+
+
+        $week .= str_repeat('', $str);
+$n  = $str;
+
+for ($i = $n; $i > 0; $i--) {
+ $week.= '<td class="ignore">' . ($last_prev_day-$i+1) . ' </td>';
+}
 
 
 
@@ -74,10 +81,10 @@ for ( $day = 1; $day <= $day_count; $day++, $str++) {
     if ($str % 7 == 6 || $day == $day_count) {
 
         if ($day == $day_count) {
-            // spatii goale cu zile ce urmeaza
+            // spatii  cu zile ce urmeaza
             for ($j = 1; $j <=6 - ($str % 7) ; $j++) {
 
-                $week .= '<td class="lunaviitoare">' . ${j};}
+                $week .= '<td class="ignore">' . ${j};}
 
         }
 
@@ -96,7 +103,7 @@ for ( $day = 1; $day <= $day_count; $day++, $str++) {
     <title>Calendar</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="assets/css/calendar2.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/calendar.css">
 
 </head>
 <body>
