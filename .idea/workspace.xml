@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="26.05.2022">
+    <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="27.05.2022">
+      <change afterPath="$PROJECT_DIR$/curs11.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/calendar2.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/calendar2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calendar2_php.php" beforeDir="false" afterPath="$PROJECT_DIR$/calendar2_php.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +152,8 @@
       <workItem from="1653460777137" duration="9094000" />
       <workItem from="1653555772578" duration="1772000" />
       <workItem from="1653559864903" duration="5101000" />
-      <workItem from="1653578928398" duration="3085000" />
+      <workItem from="1653578928398" duration="3644000" />
+      <workItem from="1653644536594" duration="1192000" />
     </task>
     <task id="LOCAL-00001" summary="06/04/2022">
       <created>1649227547837</created>
@@ -456,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653576695777</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="27.05.2022">
+      <created>1653637747197</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1653637747197</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +503,8 @@
     <MESSAGE value="16.05.2022" />
     <MESSAGE value="17.05.2022" />
     <MESSAGE value="26.05.2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="26.05.2022" />
+    <MESSAGE value="27.05.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="27.05.2022" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
