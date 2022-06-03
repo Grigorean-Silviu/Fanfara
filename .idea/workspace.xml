@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="27.05.2022">
-      <change afterPath="$PROJECT_DIR$/curs11.php" afterDir="false" />
+    <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="30.05.2022">
+      <change afterPath="$PROJECT_DIR$/curs11a.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file_create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curs11.php" beforeDir="false" afterPath="$PROJECT_DIR$/curs11.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +77,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -86,7 +90,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReaderModeSettings">
@@ -153,7 +157,9 @@
       <workItem from="1653555772578" duration="1772000" />
       <workItem from="1653559864903" duration="5101000" />
       <workItem from="1653578928398" duration="3644000" />
-      <workItem from="1653644536594" duration="1192000" />
+      <workItem from="1653644536594" duration="1218000" />
+      <workItem from="1653985955696" duration="5568000" />
+      <workItem from="1654173922615" duration="4271000" />
     </task>
     <task id="LOCAL-00001" summary="06/04/2022">
       <created>1649227547837</created>
@@ -463,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653637747197</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="30.05.2022">
+      <created>1653910935933</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1653910935933</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,7 +517,8 @@
     <MESSAGE value="17.05.2022" />
     <MESSAGE value="26.05.2022" />
     <MESSAGE value="27.05.2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="27.05.2022" />
+    <MESSAGE value="30.05.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="30.05.2022" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

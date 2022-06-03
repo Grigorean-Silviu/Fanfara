@@ -1,14 +1,18 @@
+
 <?php
+// create curl resource
+$ch = curl_init();
 
-// Create cURL resorce
-$curl = curl_init();
+// set url
+curl_setopt($ch, CURLOPT_URL, "example.com");
 
-// Set cURL options
-curl_setopt($curl, CURLOPT_URL, 'https://www.google.com');
+//return the transfer as a string
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
-// Run cURL (execute http request)
-curl_exec($curl);
+// $output contains the output string
+$output = curl_exec($ch);
 
+// close curl resource to free up system resources
+curl_close($ch);
+?>
 
-// Close cURL resorce
-curl_close($curl);
