@@ -84,7 +84,7 @@ for ( $day = 1; $day <= $day_count; $day++, $str++) {
             // spatii  cu zile ce urmeaza
             for ($j = 1; $j <=6 - ($str % 7) ; $j++) {
 
-                $week .= '<td class="ignore">' . ${j};}
+                $week .= '<td class="ignore">' . $j;}
 
         }
 

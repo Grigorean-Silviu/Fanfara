@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="30.05.2022">
-      <change afterPath="$PROJECT_DIR$/curs11a.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads.php" afterDir="false" />
+    <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="03.06.2022">
+      <change afterPath="$PROJECT_DIR$/curs11_continoare.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/curs11b.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calendar_php.php" beforeDir="false" afterPath="$PROJECT_DIR$/calendar_php.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/curs11.php" beforeDir="false" afterPath="$PROJECT_DIR$/curs11.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/curs11a.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_create.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -159,7 +160,9 @@
       <workItem from="1653578928398" duration="3644000" />
       <workItem from="1653644536594" duration="1218000" />
       <workItem from="1653985955696" duration="5568000" />
-      <workItem from="1654173922615" duration="4271000" />
+      <workItem from="1654173922615" duration="4300000" />
+      <workItem from="1654245970014" duration="431000" />
+      <workItem from="1654246405783" duration="8667000" />
     </task>
     <task id="LOCAL-00001" summary="06/04/2022">
       <created>1649227547837</created>
@@ -476,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653910935933</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="03.06.2022">
+      <created>1654245954232</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1654245954232</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +528,8 @@
     <MESSAGE value="26.05.2022" />
     <MESSAGE value="27.05.2022" />
     <MESSAGE value="30.05.2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="30.05.2022" />
+    <MESSAGE value="03.06.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="03.06.2022" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
