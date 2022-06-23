@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="12.06.2022">
-      <change afterPath="$PROJECT_DIR$/assets/js/Database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/Test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index1.php" afterDir="false" />
+    <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="23.06.2022">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calendar_php.php" beforeDir="false" afterPath="$PROJECT_DIR$/calendar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/boostraq/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/boostraq/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/calendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/calendar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/inregistrare.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calendar.php" beforeDir="false" afterPath="$PROJECT_DIR$/calendar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inregistrare.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -165,7 +166,8 @@
       <workItem from="1654245970014" duration="431000" />
       <workItem from="1654246405783" duration="8685000" />
       <workItem from="1654582196754" duration="11413000" />
-      <workItem from="1655037396179" duration="14599000" />
+      <workItem from="1655037396179" duration="16457000" />
+      <workItem from="1656010077622" duration="5223000" />
     </task>
     <task id="LOCAL-00001" summary="06/04/2022">
       <created>1649227547837</created>
@@ -503,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655037892269</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="23.06.2022">
+      <created>1656008068756</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1656008068756</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -522,7 +531,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="07/04/2022" />
     <MESSAGE value="08/04/2022" />
     <MESSAGE value="11/04/2022" />
     <MESSAGE value="12/04/2022" />
@@ -547,7 +555,8 @@
     <MESSAGE value="03.06.2022" />
     <MESSAGE value="06.06.2022" />
     <MESSAGE value="12.06.2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.06.2022" />
+    <MESSAGE value="23.06.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="23.06.2022" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

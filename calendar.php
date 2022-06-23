@@ -26,11 +26,11 @@ $html_title = date('Y / m', $timestamp);
 // Create prev & next month link
 
 //use strtotime!
- $prev = date('Y-m', strtotime('-1 month', $timestamp));
+$prev = date('Y-m', strtotime('-1 month', $timestamp));
 
- $next = date('Y-m', strtotime('+1 month', $timestamp));
+$next = date('Y-m', strtotime('+1 month', $timestamp));
 
-           // Or
+// Or
 
 //->  mktime(hour,minute,second,month,day,year)
 //$prev = date('Y-m', mktime(0, 0, 0, date('m', $timestamp)-1, 1, date('Y', $timestamp)));
@@ -55,11 +55,11 @@ $week = '';
 
 
 
-        $week .= str_repeat('', $str);
+$week .= str_repeat('', $str);
 $n  = $str;
 
 for ($i = $n; $i > 0; $i--) {
- $week.= '<td class="ignore">' . ($last_prev_day-$i+1) . ' </td>';
+    $week.= '<td class="ignore">' . ($last_prev_day-$i+1) . ' </td>';
 }
 
 
@@ -96,22 +96,47 @@ for ( $day = 1; $day <= $day_count; $day++, $str++) {
 
 }
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
 
+<!DOCTYPE html>
+<html lang="ro">
+<head>
     <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
 
-    <meta charset="utf-8">
-    <title>Calendar</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+    <title>Calendar</title>
+
+
+    <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
     <link rel="stylesheet" type="text/css" href="assets/css/calendar.css">
 
+
+    <meta name="description" content="Calendar">
+    <meta name="keywords" content="fanfara, instrumente pentru incepatori, teorie, practica, instrumente de suflat,magazin de instrumente, magazin pentru fanfara, calendar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
 </head>
+
 <body>
+
+
+<?php include("navbar.php"); ?>
+
+
+<div class="header container">
+
+    <h1>Calendar</h1>
+    <div class="topleft "><img class="cheiasol" src="assets/images/cheiasol.png" alt="cheia sol"></div>
+
+</div>
+
+
+
 <div class="container">
     <h3><a href="?ym=<?php echo $prev; ?>"> < &nbsp;&nbsp;</a> <?php echo $html_title; ?> <a href="?ym=<?php echo $next; ?>">&nbsp;&nbsp; ></a></h3>
+    <h3><a href="calendar.php">Today</a> </h3>
     <table class="table table-bordered">
         <tr>
             <th>S</th>
@@ -129,7 +154,14 @@ for ( $day = 1; $day <= $day_count; $day++, $str++) {
         }
         ?>
     </table>
-
 </div>
+
+<!-- footer -->
+
+<?php include("footer.php"); ?>
+
+
+
+
 </body>
 </html>

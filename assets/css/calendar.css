@@ -1,9 +1,18 @@
 .container {
     font-family: 'Noto Sans', sans-serif;
-    margin-top: 80px;
+
+}
+div h3 a{
+
+    text-decoration: none;
+    color: black;
+}
+div h3{
+    margin-top: revert;
 }
 h3 {
-    margin-bottom: 30px;
+    text-align: center;
+
 }
 th {
     height: 30px;
