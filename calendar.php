@@ -99,6 +99,9 @@ for ( $day = 1; $day <= $day_count; $day++, $str++) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
+
     <meta charset="utf-8">
     <title>Calendar</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">

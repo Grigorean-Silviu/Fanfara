@@ -45,7 +45,7 @@
             <a <?php if($activePage  == 'contact') {echo 'class="active"';}?> href="contact.php"><i class="fa fa-fw fa-envelope"></i>Contact</a>
             <a <?php if($activePage  == 'despre') {echo 'class="active"';}?> href="despre.php"><i class="fa fa-fw fa-question-circle"></i>Despre</a>
             <a <?php if($activePage  == 'index') {echo 'class="active"';}?> href="index.php" ><i class="fa fa-fw fa-home "></i>Acasa</a>
-            <a <?php if($activePage  == '#') {echo 'class="active"';}?> href="#"><i class="fa fa-search"></i></a>
+            <a <?php if($activePage  == 'calendar') {echo 'class="active"';}?> href="calendar.php"><i class="fa fa-calendar"></i></a>
 
         </div>
     </div>
