@@ -8,39 +8,41 @@
 
 
 }
-.colfirst{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-}
-
 
 .width-33{
     height: auto;
     width: 33.33%;
 }
+
 .column-width{
-    height: 6em;
+    height: 10em;
+
 
 }
-.column-left {
-    background-color: #7e7974;
+
+.column1 {
+
+    background-image: url("https://festival.adventistcampulung.ro/wp-content/uploads/2016/03/header_partituri.jpg");
+    background-size: cover ;
 
 }
-.column-middle {
-    background-color: #b7aea9;
+
+.column2 {
+    background-image: url("https://www.rfi.ro/sites/default/files/styles/inside_content/public/articol/trompeta-pixabay.jpg?itok=yBilh-OB");
+    background-size: cover ;
 }
 
-.column-right {
-    background-color: #d4dede;
+.column3 {
+    background-image: url("https://img.joomcdn.net/48945a214e42bf3585af9ea4c5c29647d9e9e2cb_1024_1024.jpeg");
+    background-position: center;
+    background-size: cover ;
 
 
 }
 
 /* Responsive layout - makes a one column-layout instead of a two-column layout */
 @media (max-width: 800px) {
-    .column-right,.column-middle, .column-left {
+    .column1,.column2, .column3{
         min-height: 6em;
     }
 }

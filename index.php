@@ -38,14 +38,14 @@
 
 
 <div class="container">
-<div class="col row">
+   <div class="col row">
 
 
-        <div class="column-left column-width"><a href="teorie.php">Teorie</div>
-        <div class="column-middle column-width"><a href="practica.php">Practica</a></div>
-        <div class="column-right column-width"><a href="magazin.php">Magazin de instrumente</a></div>
+        <div class="column1 column-width "><a href="teorie.php">Teorie</a></div>
+        <div class="column2 column-width "><a href="practica.php">Practica</a></div>
+        <div class="column3 column-width "><a href="magazin.php">Magazin pentru instrumente</a></div>
 
-</div>
+   </div>
 </div>
 
 <!-- footer -->
