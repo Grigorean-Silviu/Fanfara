@@ -28,7 +28,7 @@
 <div class="header container">
 
     <h1>Teorie</h1>
-    <div class="topleft "><img class="cheiasol" src="assets/images/cheiasol_logo.png" alt="cheia sol"></div>
+    <div class="topleft "><img class="cheiasol" src="assets/images/cheiasol.png" alt="cheia sol"></div>
 
 </div>
 

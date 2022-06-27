@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="27.06.2022">
-      <change afterPath="$PROJECT_DIR$/assets/images/clave_do3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/clave_do4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/index_shopping.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/php/component.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/upload/produs1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/upload/produs2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/upload/produs3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/upload/produs4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index_shopping.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/cheiasol_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/cheiasol.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/teorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/teorie.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -164,14 +170,7 @@
       <workItem from="1654582196754" duration="11413000" />
       <workItem from="1655037396179" duration="16457000" />
       <workItem from="1656010077622" duration="12735000" />
-      <workItem from="1656322049948" duration="8645000" />
-    </task>
-    <task id="LOCAL-00007" summary="06/04/2022">
-      <created>1649236428610</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1649236428610</updated>
+      <workItem from="1656322049948" duration="14800000" />
     </task>
     <task id="LOCAL-00008" summary="06/04/2022">
       <created>1649240955588</created>
@@ -509,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656334058101</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="27.06.2022">
+      <created>1656336728400</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1656336728400</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
