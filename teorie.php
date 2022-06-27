@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
     <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
     <link rel="stylesheet" type="text/css" href="assets/css/column.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/despre.css">
 
     <meta name="description" content="teorie si practica la instrumente pentru incepatori">
     <meta name="keywords" content="fanfara, instrumente pentru incepatori, teorie, practica, instrumente de suflat,magazin de instrumente, magazin pentru fanfara">
@@ -27,22 +28,93 @@
 <div class="header container">
 
     <h1>Teorie</h1>
-    <div class="topleft "><img class="cheiasol" src="assets/images/cheiasol.png" alt="cheia sol"></div>
+    <div class="topleft "><img class="cheiasol" src="assets/images/cheiasol_logo.png" alt="cheia sol"></div>
 
 </div>
+<section class="container">
+<h1>Notele din Cheia Sol</h1>
 
-
-<div class="container">
-    <div class="col row">
-
-
-        <div class="columnT1 column-width "><a href="#">Lectia 1</a></div>
-        <div class="columnT2 column-width "><a href="#">Lectia 2</a></div>
-        <div class="columnT3 column-width "><a href="#">Lectia 3</a></div>
-
-
+    <div class="container">
+         <img class="center" src="assets/images/CheiaSol.png" alt="cheia sol">
     </div>
-</div>
+    <hr>
+</section>
+
+
+
+<section class="container">
+    <h1>Notele din Cheia Fa</h1>
+
+    <div class="container">
+        <img class="center" src="assets/images/CheiaFa.png" alt="cheia fa">
+    </div>
+    <hr>
+</section>
+
+<section class="container">
+    <h1>Notele din Cheia Do</h1>
+    <h4>Alto</h4>
+
+    <div class="container">
+        <img class="center" src="assets/images/CheiaDo_alto.png" alt="cheia do alto">
+    </div>
+
+    <h4>Tenor</h4>
+    <div class="container">
+        <img class="center" src="assets/images/CheiaDo_tenor.png" alt="cheia do tenor">
+    </div>
+    <hr>
+</section>
+
+<section class="container">
+    <h1>Ce este portativul?</h1>
+    <h5>
+        Portativul este un desen (o grafică) alcătuit din 5 linii paralele și echidistante (și implicit 4 spații). Liniile și spațiile portativului se numără începând de jos în sus.</h5>
+    <h5>
+        La nevoie i se adaugă linii suplimentare ce constituie extensia portativului în sens ascendent și descendent.
+    </h5>
+
+    <div class="container">
+        <img class="center" src="assets/images/portativ.png" alt="portativ">
+    </div>
+    <hr>
+</section>
+
+<section class="container">
+    <h1>Ce sunt cheile muzicale?</h1>
+<h5>
+    În muzică, cheia este simbolul scris la începutul unui portativ pentru a indica înălțimea notelor scrise. Cheile muzicale sunt numite după notele Do, Fa și Sol iar amplasamentul lor pe portativ stabilește înălțimea notei al cărei nume îl poartă. Înălțimile celorlalte note rezultă din poziția lor în relație cu acea notă.
+</h5>
+
+        <h6>
+            Cheia sol este poziționată pe a doua linie a portativului, prin urmare nota muzicală situată pe acea linie se numește SOL.
+        </h6>
+
+    <div class="container">
+        <img class="center" src="assets/images/clave_sol.png" alt="cheia sol">
+    </div>
+    <br>
+
+    <h6>
+        Cheia fa este poziționată pe a patra linie a portativului, prin urmare nota muzicală situată pe acea linie se numește FA.
+    </h6>
+
+    <div class="container">
+        <img class="center" src="assets/images/clave_fa.png" alt="cheia fa">
+    </div>
+    <br>
+
+
+
+    <hr>
+</section>
+
+
+
+
+
+
+
 
 <!-- footer -->
 
