@@ -31,6 +31,19 @@
 
 </div>
 
+
+<div class="container">
+    <div class="col row">
+
+
+        <div class="columnT1 column-width "><a href="#">Lectia 1</a></div>
+        <div class="columnT2 column-width "><a href="#">Lectia 2</a></div>
+        <div class="columnT3 column-width "><a href="#">Lectia 3</a></div>
+
+
+    </div>
+</div>
+
 <!-- footer -->
 
 <?php include("footer.php"); ?>
