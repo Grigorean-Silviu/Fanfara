@@ -31,6 +31,74 @@
     <div class="topleft "><img class="cheiasol" src="assets/images/cheiasol_logo.png" alt="cheia sol"></div>
 
 </div>
+
+<section class="container">
+    <h1>Ce este muzica?</h1>
+    <h5>
+        Muzica (din gr. mousikē) este arta combinării notelor în succesiune și simultan într-o formă plăcută estetic, organizarea ritmică a acestor note și integrarea lor într-o lucrare completă.
+    </h5>
+
+    <hr>
+</section>
+
+<section class="container">
+    <h1>Ce este portativul?</h1>
+    <h5>
+        Portativul este un desen (o grafică) alcătuit din 5 linii paralele și echidistante (și implicit 4 spații). Liniile și spațiile portativului se numără începând de jos în sus.</h5>
+    <h5>
+        La nevoie i se adaugă linii suplimentare ce constituie extensia portativului în sens ascendent și descendent.
+    </h5>
+
+    <div class="container">
+        <img class="center" src="assets/images/portativ.png" alt="portativ">
+    </div>
+    <hr>
+</section>
+
+<section class="container">
+<h1>Ce sunt cheile muzicale?</h1>
+<h5>
+    În muzică, cheia este simbolul scris la începutul unui portativ pentru a indica înălțimea notelor scrise. Cheile muzicale sunt numite după notele Do, Fa și Sol iar amplasamentul lor pe portativ stabilește înălțimea notei al cărei nume îl poartă. Înălțimile celorlalte note rezultă din poziția lor în relație cu acea notă.
+</h5>
+
+<h6>
+    Cheia sol este poziționată pe a doua linie a portativului, prin urmare nota muzicală situată pe acea linie se numește SOL.
+</h6>
+
+<div class="container">
+    <img class="center" src="assets/images/clave_sol.png" alt="cheia sol">
+</div>
+<br>
+
+<h6>
+    Cheia fa este poziționată pe a patra linie a portativului, prin urmare nota muzicală situată pe acea linie se numește FA.
+</h6>
+
+<div class="container">
+    <img class="center" src="assets/images/clave_fa.png" alt="cheia fa">
+</div>
+    <br>
+
+
+
+    <div class="container">
+        <div class="row mb-3">
+            <div class="col-7 col-sm-3">
+            <img class="center" src="assets/images/clave_do3.png" alt="cheia do de pe linia 3">
+            </div>
+            <div class="col-12 order-12 order-sm-0 col-sm-6">
+                <p class="lang">
+                    Cheia do are mai multe poziții, de exemplu pe a treia sau a patra linie, prin urmare figura muzicală care se află pe una dintre acele linii se va numi DO.
+                </p>
+            </div>
+            <div class="col-12 col-sm-3">
+            <img class="center" src="assets/images/clave_do4.png" alt="cheia do de pe linia 4">
+            </div>
+        </div>
+    </div>
+<hr>
+</section>
+
 <section class="container">
 <h1>Notele din Cheia Sol</h1>
 
@@ -39,8 +107,6 @@
     </div>
     <hr>
 </section>
-
-
 
 <section class="container">
     <h1>Notele din Cheia Fa</h1>
@@ -63,58 +129,8 @@
     <div class="container">
         <img class="center" src="assets/images/CheiaDo_tenor.png" alt="cheia do tenor">
     </div>
-    <hr>
-</section>
-
-<section class="container">
-    <h1>Ce este portativul?</h1>
-    <h5>
-        Portativul este un desen (o grafică) alcătuit din 5 linii paralele și echidistante (și implicit 4 spații). Liniile și spațiile portativului se numără începând de jos în sus.</h5>
-    <h5>
-        La nevoie i se adaugă linii suplimentare ce constituie extensia portativului în sens ascendent și descendent.
-    </h5>
-
-    <div class="container">
-        <img class="center" src="assets/images/portativ.png" alt="portativ">
-    </div>
-    <hr>
-</section>
-
-<section class="container">
-    <h1>Ce sunt cheile muzicale?</h1>
-<h5>
-    În muzică, cheia este simbolul scris la începutul unui portativ pentru a indica înălțimea notelor scrise. Cheile muzicale sunt numite după notele Do, Fa și Sol iar amplasamentul lor pe portativ stabilește înălțimea notei al cărei nume îl poartă. Înălțimile celorlalte note rezultă din poziția lor în relație cu acea notă.
-</h5>
-
-        <h6>
-            Cheia sol este poziționată pe a doua linie a portativului, prin urmare nota muzicală situată pe acea linie se numește SOL.
-        </h6>
-
-    <div class="container">
-        <img class="center" src="assets/images/clave_sol.png" alt="cheia sol">
-    </div>
     <br>
-
-    <h6>
-        Cheia fa este poziționată pe a patra linie a portativului, prin urmare nota muzicală situată pe acea linie se numește FA.
-    </h6>
-
-    <div class="container">
-        <img class="center" src="assets/images/clave_fa.png" alt="cheia fa">
-    </div>
-    <br>
-
-
-
-    <hr>
 </section>
-
-
-
-
-
-
-
 
 <!-- footer -->
 
