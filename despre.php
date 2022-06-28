@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-    <title>Despre</title>
+    <!-- logo -->
     <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
 
+    <title>Despre</title>
+
+    <!-- link -->
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
     <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
     <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
     <link rel="stylesheet" type="text/css" href="assets/css/despre.css">
     <link rel="stylesheet" type="text/css" href="assets/css/column.css">
 
-
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/boostraq/css/bootstrap.css"   crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- meta -->
     <meta name="description"
           content="Tot ce trebuie sa stii despre teoria si practica la instrumentele de fanfara sau de suflat">
     <meta name="keywords"
@@ -28,17 +30,16 @@
 <?php include("navbar.php"); ?>
 
 <div class="header container">
-
     <h1>Despre acest site</h1>
     <div class="topleft "><img class="cheiasol" src="assets/images/cheiasol.png" alt="cheia sol"></div>
-
 </div>
 
 
 
 <section class="container">
-
-    <h1>Scopul acestui site</h1>
+    <h1>
+        Scopul acestui site
+    </h1>
     <h2>
         Buna tuturor!
     </h2>
@@ -56,9 +57,6 @@
 
     </h2>
 
-
-
-
 <section>
     <div class="container">
         <img class="center1" src="assets/images/fanf2.png" alt="logo">
@@ -66,14 +64,9 @@
 </section>
 
 <!-- footer -->
-
 <?php include("footer.php"); ?>
 
-
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-
 
 </body>
 </html>

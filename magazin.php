@@ -1,18 +1,19 @@
 
-
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-
-    <title>Magazin instrument muzicale</title>
+    <!-- logo -->
     <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
 
+    <title>Magazin instrument muzicale</title>
+
+    <!-- link -->
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
     <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
     <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
     <link rel="stylesheet" type="text/css" href="assets/css/column.css">
 
-
+    <!-- meta -->
     <meta name="description" content=" magazin online pentru instruente de fanfara cat si acecesorii de curatat instrumentele">
     <meta name="keywords" content="fanfara, instrumente pentru incepatori, teorie,ulei pentru instrumente, practica, instrumente de suflat,magazin de instrumente, magazin pentru fanfara">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,22 +30,15 @@
 
 <div class="header container">
 
-
     <h1>Magazin pentru instrumente</h1>
     <div class="topleft "><img class="cheiasol"  src="assets/images/cheiasol.png" alt="cheia sol"></div>
 
 </div>
 
-
-
 <!-- footer -->
-
 <?php include("footer.php"); ?>
 
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-
 
 </body>
 </html>

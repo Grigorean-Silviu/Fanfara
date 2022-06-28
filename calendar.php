@@ -24,21 +24,18 @@ $today = date('Y-m-d', time());
 $html_title = date('Y / m', $timestamp);
 
 // Create prev & next month link
-
-//use strtotime!
+//strtotime
 $prev = date('Y-m', strtotime('-1 month', $timestamp));
 
 $next = date('Y-m', strtotime('+1 month', $timestamp));
-
 // Or
 
-//->  mktime(hour,minute,second,month,day,year)
+//mktime(hour,minute,second,month,day,year)
 //$prev = date('Y-m', mktime(0, 0, 0, date('m', $timestamp)-1, 1, date('Y', $timestamp)));
 //$next = date('Y-m', mktime(0, 0, 0, date('m', $timestamp)+1, 1, date('Y', $timestamp)));
 
 // Number of days in the month
 $day_count = date('t', $timestamp);
-
 $last_prev_day = Date("t", strtotime("first day of previous month"));
 
 // 0:Sun 1:Mon 2:Tue ...
@@ -51,10 +48,6 @@ $weeks = array();
 $week = '';
 
 // spatii goale cu zile din luna trecuta
-
-
-
-
 $week .= str_repeat('', $str);
 $n  = $str;
 
@@ -62,13 +55,8 @@ for ($i = $n; $i > 0; $i--) {
     $week.= '<td class="ignore">' . ($last_prev_day-$i+1) . ' </td>';
 }
 
-
-
 for ( $day = 1; $day <= $day_count; $day++, $str++) {
-
-
     $date = $ym . "-" . $day;
-
     if ($today == $date) {
         $week .= '<td class="today">' . $day;
     } else {
@@ -77,63 +65,49 @@ for ( $day = 1; $day <= $day_count; $day++, $str++) {
     $week .= '</td>';
 
     // End of the week OR End of the month
-
     if ($str % 7 == 6 || $day == $day_count) {
-
         if ($day == $day_count) {
             // spatii  cu zile ce urmeaza
-            for ($j = 1; $j <=6 - ($str % 7) ; $j++) {
-
-                $week .= '<td class="ignore">' . $j;}
-
+            for ($j = 1; $j <= 6 - ($str % 7); $j++) {
+                $week .= '<td class="ignore">' . $j;
+            }
         }
-
         $weeks[] = '<tr>' . $week . '</tr>';
-
         // Prepare for new week
         $week = '';
     }
-
 }
 ?>
 
 <!DOCTYPE html>
 <html lang="ro">
 <head>
+    <!-- logo -->
     <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
-
 
     <title>Calendar</title>
 
-
+    <!-- link -->
     <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
     <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
     <link rel="stylesheet" type="text/css" href="assets/css/calendar.css">
 
-
+    <!-- meta -->
     <meta name="description" content="Calendar">
     <meta name="keywords" content="fanfara, instrumente pentru incepatori, teorie, practica, instrumente de suflat,magazin de instrumente, magazin pentru fanfara, calendar">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
-
 </head>
-
 <body>
-
 
 <?php include("navbar.php"); ?>
 
-
 <div class="header container">
-
     <h1>Calendar</h1>
     <div class="topleft "><img class="cheiasol" src="assets/images/cheiasol.png" alt="cheia sol"></div>
-
 </div>
 
-
-
+<!-- Calendar -->
 <div class="container">
     <h3><a href="?ym=<?php echo $prev; ?>"> < &nbsp;&nbsp;</a> <?php echo $html_title; ?> <a href="?ym=<?php echo $next; ?>">&nbsp;&nbsp; ></a></h3>
     <h3><a href="calendar.php">Today</a> </h3>
@@ -157,11 +131,7 @@ for ( $day = 1; $day <= $day_count; $day++, $str++) {
 </div>
 
 <!-- footer -->
-
 <?php include("footer.php"); ?>
-
-
-
 
 </body>
 </html>

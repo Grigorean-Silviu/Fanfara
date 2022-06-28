@@ -3,16 +3,18 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
+    <!-- logo -->
     <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
 
     <title>Practica si teorie pentru muzica de fanafara</title>
 
+    <!-- link -->
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
     <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
     <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
     <link rel="stylesheet" type="text/css" href="assets/css/column.css">
 
-
+    <!-- meta -->
     <meta name="description" content="teorie si practica la instrumente pentru incepatori">
     <meta name="keywords" content="fanfara, instrumente pentru incepatori, teorie, practica, instrumente de suflat,magazin de instrumente, magazin pentru fanfara">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,9 +24,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
-
 <body>
-
 
 <div class="topnav" id="myTopnav">
     <div class="container">
@@ -35,7 +35,6 @@
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="inregistrare.php">Intra in cont</a>
                     <a href="teorie.php">Teorie</a>
                     <a href="practica.php">Practica</a>
                     <a href="magazin.php">Magazin de instrumente</a>
@@ -65,12 +64,7 @@
     }
 </script>
 
-
-
-
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
 
 </body>
 </html>

@@ -21,7 +21,7 @@
     bottom: 0;
     height: 3px;
     width: 30px;
-    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    background: linear-gradient(135deg, #71b7e6, #31a44e);
 }
 .container form .user-details{
     display: flex;
@@ -52,7 +52,7 @@ form .user-details .input-box{
 }
 .user-details .input-box input:focus,
 .user-details .input-box input:valid{
-    border-color: #9b59b6;
+    border-color: #6aa857;
 }
 form .gender-details .gender-title{
     font-size: 20px;
@@ -103,11 +103,11 @@ form .gender-details .category{
         font-weight: 500;
         border-radius: 5px;
         letter-spacing: 1px;
-        background: linear-gradient(135deg, #71b7e6, #9b59b6);
+        background: linear-gradient(135deg, #a0c5de, #3ebb68);
     }
 
     form .button input:hover{
-        background: linear-gradient(135deg, #71b7e6, #9b59b6);
+        background: linear-gradient(135deg, #71b7e6, #74d797);
     }
     @media (max-width: 584px){
        .container{
