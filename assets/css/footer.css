@@ -154,6 +154,14 @@
     width: 100%;
 }
 
+.logorc{
+
+    height: 80px;
+
+
+}
+
+
 
 @media screen and (max-width: 768px) {
     .footer-container {

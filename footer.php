@@ -31,7 +31,7 @@
     <div class="footer-container">
         <div class="first width-33">
             <h4 class="title">Navigare</h4>
-            <ul class="colfirst">
+            <ul>
 
                 <li><a href="index.php"><i class="fa fa-fw fa-home"></i>Acasa</a></li>
                 <li><a href="despre.php"><i class="fa fa-fw fa-question-circle"></i>Despre</a></li>
@@ -54,7 +54,14 @@
         </div>
 
         <div class="third width-33">
-            <h4 class="title">Company Name</h4></div>
+            <h4 class="title">Company Name</h4>
+        <ul class="colmargine">
+
+            <li><a href="https://www.rankingcoach.com/en-us"> <img class="logorc" src="assets/images/download-2.png" alt="cheia sol"></a></li>
+
+        </ul>
+        </div>
+
 
     </div>
 

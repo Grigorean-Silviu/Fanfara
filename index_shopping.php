@@ -1,7 +1,4 @@
-<?php
 
-require_once ('./php/component.php');
-?>
 
 <!doctype html>
 <html lang="en">
@@ -47,12 +44,38 @@ require_once ('./php/component.php');
 
 <div class="container">
     <div class="row text-center py-5">
-        <?php
-        component();
-        component();
-        component();
-        ?>
-    </div>
+        <div class="col-md-3 col-sm-6 my-3 my-md-0">
+            <form action="index_shopping.php" method="post">
+                 <div class="card shadow">
+                   <div>
+                       <img class="img-fluid card-img-top" src="assets/upload/produs1.png" alt="imagine1" >
+                   </div>
+                   <div class="card-body">
+                     <h5 class="card-title">
+                         Produs1
+                     </h5>
+                       <h6>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star-half"></i>
+                           <i class="far fa-star"></i>
+                       </h6>
+                       <p class="card-text">
+                           Produse de curatat instrumentul
+                       </p>
+                       <h5>
+                           <small><s class="text-secondary">150 lei</s></small>
+                           <span class="price">119 lei</span>
+                       </h5>
+
+                       <button type="submit" class="btn btn-warning my-3" name="add">Adauga <i class="fas fa-shopping-cart"></i> </button>
+                   </div>
+                 </div>
+            </form>
+        </div>
+
+
 </div>
 
 <!-- footer -->

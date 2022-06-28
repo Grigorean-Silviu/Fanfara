@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="27.06.2022">
-      <change afterPath="$PROJECT_DIR$/assets/css/index_shopping.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/php/component.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/upload/produs1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/upload/produs2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/upload/produs3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/upload/produs4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index_shopping.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/download-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/fanf2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/fanf4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/cheiasol_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/cheiasol.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/teorie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/column.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/column.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/fanf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/teorie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/despre.php" beforeDir="false" afterPath="$PROJECT_DIR$/despre.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_shopping.php" beforeDir="false" afterPath="$PROJECT_DIR$/index_shopping.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,14 +171,7 @@
       <workItem from="1654582196754" duration="11413000" />
       <workItem from="1655037396179" duration="16457000" />
       <workItem from="1656010077622" duration="12735000" />
-      <workItem from="1656322049948" duration="14800000" />
-    </task>
-    <task id="LOCAL-00008" summary="06/04/2022">
-      <created>1649240955588</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1649240955588</updated>
+      <workItem from="1656322049948" duration="20315000" />
     </task>
     <task id="LOCAL-00009" summary="07/04/2022">
       <created>1649328397231</created>
@@ -515,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656336728400</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="27.06.2022">
+      <created>1656359157557</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1656359157557</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
