@@ -37,7 +37,7 @@
                 <div class="dropdown-content">
                     <a href="teorie.php">Teorie</a>
                     <a href="practica.php">Practica</a>
-                    <a href="magazin.php">Magazin de instrumente</a>
+                    <a href="login.php.php">Magazin de instrumente</a>
                 </div>
             </div>
 

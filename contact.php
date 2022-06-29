@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ro">
 <head>
@@ -30,36 +31,36 @@
 <!-- Form -->
 <div class="container">
     <div class="title1">Inregistrare</div>
-    <form action="#">
+    <form action="" method="POST">
         <div class="user-details">
             <div class="input-box">
                 <span class="details">Numele</span>
-                <input type="text" placeholder="ex. Grigorean Silviu" required>
+                <input type="text" name="username" placeholder="ex. Grigorean" value="<?php echo $username;?>" required>
             </div>
             <div class="input-box">
-                <span class="details">Numele de utilizator</span>
-                <input type="text" placeholder="ex. Grigorean Silviu" required>
+                <span class="details">Prenumele</span>
+                <input type="text" name="firstName" placeholder="ex. Silviu" value="" required>
             </div>
             <div class="input-box">
                 <span class="details">Email</span>
-                <input type="text" placeholder="ex. @gmail.com" required>
+                <input type="email" name="email" placeholder="ex. @gmail.com" value="<?php echo $email;?>" required>
             </div>
             <div class="input-box">
                 <span class="details">Numarul de telefon</span>
-                <input type="text" placeholder="ex. 0774021042" required>
+                <input type="number" name="number" placeholder="ex. 0774021042" value="" required>
             </div>
             <div class="input-box">
                 <span class="details">Parola</span>
-                <input type="text" placeholder="Scrie o parola" required>
+                <input type="password" name="password" placeholder="Scrie o parola" value="<?php echo $_POST['password'];?>" required>
             </div>
             <div class="input-box">
                 <span class="details">Comfirma Parola</span>
-                <input type="text" placeholder="Rescrie Parola" required>
+                <input type="password" name="cpassword" placeholder="Rescrie Parola" value="<?php echo $_POST['cpassword'];?>" required>
             </div>
         </div>
         <div class="gender-details">
-            <input type="radio" name="gender" id="dot-1">
-            <input type="radio" name="gender" id="dot-2">
+            <input type="radio" name="gender"  id="dot-1" value="m" required>
+            <input type="radio" name="gender" id="dot-2" value="f" required>
             <span class="gender-title">Gen</span>
             <div class="category">
                 <label for="dot-1">
@@ -73,7 +74,7 @@
             </div>
         </div>
         <div class="button">
-            <input type="submit" value="Submit">
+            <input type="submit" name="submit" value="Submit" required>
         </div>
     </form>
 </div>

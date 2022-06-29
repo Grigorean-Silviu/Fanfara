@@ -5,18 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="28.06.2022">
+      <change afterPath="$PROJECT_DIR$/assets/css/magazin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/fanf1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/product-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/indexs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/register2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registrer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calendar.php" beforeDir="false" afterPath="$PROJECT_DIR$/calendar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/column.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/column.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/despre.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/despre.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/despre.php" beforeDir="false" afterPath="$PROJECT_DIR$/despre.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_shopping.php" beforeDir="false" afterPath="$PROJECT_DIR$/index_shopping.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fn.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/magazin.php" beforeDir="false" afterPath="$PROJECT_DIR$/magazin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practica.php" beforeDir="false" afterPath="$PROJECT_DIR$/practica.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/teorie.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +85,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -172,14 +178,9 @@
       <workItem from="1654582196754" duration="11413000" />
       <workItem from="1655037396179" duration="16457000" />
       <workItem from="1656010077622" duration="12735000" />
-      <workItem from="1656322049948" duration="22590000" />
-    </task>
-    <task id="LOCAL-00010" summary="07/04/2022">
-      <created>1649335762221</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1649335762221</updated>
+      <workItem from="1656322049948" duration="28739000" />
+      <workItem from="1656442039809" duration="418000" />
+      <workItem from="1656443215300" duration="24284000" />
     </task>
     <task id="LOCAL-00011" summary="07/04/2022">
       <created>1649335946473</created>
@@ -517,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656405615233</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="28.06.2022">
+      <created>1656422820050</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1656422820050</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

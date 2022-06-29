@@ -48,11 +48,18 @@
     </h2>
     <section>
         <div class="container">
+            <img class="center1" src="assets/images/fanf1.png" alt="logo">
+        </div>
+    </section>
+    <h2>
+        Am primit informatia ca ma pot inscrie la un curs de mentorship la rankingCoach si atunci am hotarat sa creez un site special pentru copiii care isi doresc sa invete muzica si sa repete la un instrument.
+    </h2>
+    <section>
+        <div class="container">
             <img class="center1" src="assets/images/fanf4.png" alt="logo">
         </div>
     </section>
     <h2>
-        Am primit informatia ca ma pot inscrie la un curs de mentorship la rankingCoach si atunci am hotarat sa creez un site special pentru copii care isi doresc sa invete muzica si sa repete la un instrument.
         Anul acesta am inceput inca o noua generatie de copii cuprinsi in varsta de 6-12 ani si imi dau seama ca acest site este foarte important deoarece copii au nevoie sa repete acasa si sa exerseze in sectiunea de "Practica".
 
     </h2>
