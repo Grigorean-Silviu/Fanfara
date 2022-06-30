@@ -41,7 +41,7 @@
             <h4 class="title">Invata</h4>
             <ul class="col">
                 <li><a href="teorie.php"><i class="fa fa-fw fa-book"></i>Teorie</a></li>
-                <li><a href="login.php"><i class="fa fa-check-square-o"></i>Practica</a></li>
+                <li><a href="practica.php"><i class="fa fa-check-square-o"></i>Practica</a></li>
             </ul>
         </div>
 
