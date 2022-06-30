@@ -1,4 +1,5 @@
-<?php $activePage = basename($_SERVER['PHP_SELF'], ".php");  ?>
+<?php $activePage = basename($_SERVER['PHP_SELF'], ".php");
+?>
 
 <!DOCTYPE html>
 <html lang="ro">
@@ -9,10 +10,7 @@
     <title>Practica si teorie pentru muzica de fanafara</title>
 
     <!-- link -->
-    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
     <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/column.css">
 
     <!-- meta -->
     <meta name="description" content="teorie si practica la instrumente pentru incepatori">

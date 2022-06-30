@@ -40,46 +40,7 @@ div a{
     border-radius: 50%;
 }
 
-.imagine{
-    height: 52px;
-}
 
-.dropbtn {
-    background: none;
-    padding: 14px 16px;
-    border: none;
-    color: white;
-    text-align: center;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #4CAF50;
-
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-
-    background-color: white;
-    min-width: 160px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-
-}
-
-.dropdown-content a{
-    color:black;
-    padding: 12px;
-    text-align: center;
-}
-
-.dropdown-content a:hover {
-    background-color: #4CAF50;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
 
 
 @media screen and (min-width: 657px) {

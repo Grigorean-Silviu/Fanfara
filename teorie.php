@@ -7,7 +7,7 @@
     <title>Teorie</title>
 
     <!-- link -->
-    <link rel="stylesheet" type="text/css" href="assets/css/despre.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/teorie.css">
 
     <!-- meta -->
     <meta name="description" content="teorie si practica la instrumente pentru incepatori">
@@ -16,6 +16,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/boostraq/css/bootstrap.css"   crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 
 </head>
@@ -31,7 +33,7 @@
 </div>
 
 <section class="container">
-    <h1>Ce este muzica?</h1>
+    <h3>Ce este muzica?</h3>
     <h5>
         Muzica (din gr. mousikē) este arta combinării notelor în succesiune și simultan într-o formă plăcută estetic, organizarea ritmică a acestor note și integrarea lor într-o lucrare completă.
     </h5>
@@ -40,7 +42,7 @@
 </section>
 
 <section class="container">
-    <h1>Ce este portativul?</h1>
+    <h3>Ce este portativul?</h3>
     <h5>
         Portativul este un desen (o grafică) alcătuit din 5 linii paralele și echidistante (și implicit 4 spații). Liniile și spațiile portativului se numără începând de jos în sus.</h5>
     <h5>
@@ -48,13 +50,13 @@
     </h5>
 
     <div class="container">
-        <img class="center" src="assets/images/portativ.png" alt="portativ">
+        <img class="center1" src="assets/images/portativ.png" alt="portativ">
     </div>
     <hr>
 </section>
 
 <section class="container">
-<h1>Ce sunt cheile muzicale?</h1>
+<h3>Ce sunt cheile muzicale?</h3>
 <h5>
     În muzică, cheia este simbolul scris la începutul unui portativ pentru a indica înălțimea notelor scrise. Cheile muzicale sunt numite după notele Do, Fa și Sol iar amplasamentul lor pe portativ stabilește înălțimea notei al cărei nume îl poartă. Înălțimile celorlalte note rezultă din poziția lor în relație cu acea notă.
 </h5>
@@ -78,25 +80,19 @@
     <br>
 
     <div class="container">
-        <div class="row mb-3">
-            <div class="col-7 col-sm-3">
-            <img class="center" src="assets/images/clave_do3.png" alt="cheia do de pe linia 3">
-            </div>
-            <div class="col-12 order-12 order-sm-0 col-sm-6">
-                <p class="lang">
-                    Cheia do are mai multe poziții, de exemplu pe a treia sau a patra linie, prin urmare figura muzicală care se află pe una dintre acele linii se va numi DO.
-                </p>
-            </div>
-            <div class="col-12 col-sm-3">
-            <img class="center" src="assets/images/clave_do4.png" alt="cheia do de pe linia 4">
-            </div>
-        </div>
+        <h6>
+            Cheia do are mai multe poziții, de exemplu pe a treia sau a patra linie, prin urmare figura muzicală care se află pe una dintre acele linii se va numi DO.
+        </h6>
+    </div>
+    <div class="poz">
+        <img  src="assets/images/clave_do3.png" alt="cheia do de pe linia 3">
+        <img  src="assets/images/clave_do4.png" alt="cheia do de pe linia 4">
     </div>
 <hr>
 </section>
 
 <section class="container">
-<h1>Notele din Cheia Sol</h1>
+<h3>Notele din Cheia Sol</h3>
 
     <div class="container">
          <img class="center" src="assets/images/CheiaSol.png" alt="cheia sol">
@@ -105,7 +101,7 @@
 </section>
 
 <section class="container">
-    <h1>Notele din Cheia Fa</h1>
+    <h3>Notele din Cheia Fa</h3>
 
     <div class="container">
         <img class="center" src="assets/images/CheiaFa.png" alt="cheia fa">
@@ -114,7 +110,7 @@
 </section>
 
 <section class="container">
-    <h1>Notele din Cheia Do</h1>
+    <h3>Notele din Cheia Do</h3>
     <h4>Alto</h4>
 
     <div class="container">
