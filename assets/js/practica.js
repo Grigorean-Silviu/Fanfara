@@ -91,10 +91,22 @@ submitBtn.addEventListener('click', () => {
             loadQuiz()
         } else {
             quiz.innerHTML = `
-           <h2>You answered ${score}/${quizData.length} questions correctly</h2>
+           <h2>Ai raspuns corect la ${score}/${quizData.length} din intrebari</h2>
 
-           <button onclick="location.reload()">Reload</button>
+           <button onclick="location.reload()">Reincearca</button>
            `
         }
     }
 })
+
+var count = 15;
+var interval = setInterval(function(){
+    document.getElementById('count').innerHTML=count;
+    count--;
+    if (count === 0){
+        clearInterval(interval);
+        document.getElementById('count').innerHTML='Done';
+        // or...
+        alert("You're out of time!");
+    }
+}, 1000);

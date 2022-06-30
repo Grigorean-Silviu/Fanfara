@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="30.06.2022">
-      <change afterPath="$PROJECT_DIR$/assets/css/practica.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/practica.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practica.php" beforeDir="false" afterPath="$PROJECT_DIR$/practica.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/locations.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/cheiasol.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/cheiasol.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/practica.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/practica.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/teorie.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +77,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -171,14 +169,7 @@
       <workItem from="1656322049948" duration="28739000" />
       <workItem from="1656442039809" duration="418000" />
       <workItem from="1656443215300" duration="35661000" />
-      <workItem from="1656587290134" duration="3155000" />
-    </task>
-    <task id="LOCAL-00013" summary="11/04/2022">
-      <created>1649672509393</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1649672509393</updated>
+      <workItem from="1656587290134" duration="5090000" />
     </task>
     <task id="LOCAL-00014" summary="11/04/2022">
       <created>1649677909899</created>
@@ -516,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656583551662</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="30.06.2022">
+      <created>1656598094666</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1656598094667</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
