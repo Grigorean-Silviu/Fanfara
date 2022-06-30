@@ -5,13 +5,10 @@
     <!-- logo -->
     <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
 
-    <title>Practica si teorie pentru muzica de fanafara</title>
+    <title>Teorie si practica pentru muzica</title>
 
     <!-- link -->
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/column.css">
 
     <!-- meta -->
     <meta name="description" content="teorie si practica la instrumente pentru incepatori">

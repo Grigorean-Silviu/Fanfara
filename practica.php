@@ -9,10 +9,6 @@
 
     <!-- link -->
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/column.css">
-
     <link rel="stylesheet" type="text/css" href="assets/css/practica.css">
 
     <!-- Bootstrap CSS -->
@@ -36,7 +32,7 @@
 
 <div class="container">
 <div class="quiz-container" id="quiz">
-    <div class="quiz-header">
+
         <h2 id="question">Question Text</h2>
         <ul class="text-center">
             <li>
@@ -60,7 +56,7 @@
             </li>
 
         </ul>
-    </div>
+
 
     <button id="submit" >Submit</button>
 

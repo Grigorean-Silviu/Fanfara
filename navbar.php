@@ -7,11 +7,10 @@
     <!-- logo -->
     <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
 
-    <title>Practica si teorie pentru muzica de fanafara</title>
+    <title>Navbar</title>
 
     <!-- link -->
     <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
-
     <!-- meta -->
     <meta name="description" content="teorie si practica la instrumente pentru incepatori">
     <meta name="keywords" content="fanfara, instrumente pentru incepatori, teorie, practica, instrumente de suflat,magazin de instrumente, magazin pentru fanfara">

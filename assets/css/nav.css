@@ -44,9 +44,9 @@
 }
 
 .dropdown .dropbtn {
-
+    font-size: 17px;
     border: none;
-
+    outline: none;
     color: white;
     padding: 14px 16px;
     background-color: inherit;
@@ -59,7 +59,6 @@
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
@@ -103,7 +102,9 @@
 }
 
 @media screen and (max-width: 769px) {
-    .topnav.responsive {position: relative;}
+    .topnav.responsive {
+        position: relative;
+    }
     .topnav.responsive .icon {
         position: absolute;
 
@@ -117,9 +118,13 @@
         text-align: left;
     }
 
-    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown {
+        float: none;
+    }
 
-    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown-content {
+        position: relative;
+    }
 
     .topnav.responsive .dropdown .dropbtn {
         display: block;

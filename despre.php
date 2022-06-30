@@ -8,10 +8,7 @@
 
     <!-- link -->
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
     <link rel="stylesheet" type="text/css" href="assets/css/despre.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/column.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/boostraq/css/bootstrap.css"   crossorigin="anonymous">
@@ -68,6 +65,7 @@
     <div class="container">
         <img class="center1" src="assets/images/fanf2.png" alt="logo">
     </div>
+</section>
 </section>
 
 <!-- footer -->

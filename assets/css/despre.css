@@ -4,6 +4,7 @@
     margin-right: auto;
     border-radius: 50px;
 }
+
 .center1{
     display: block;
     margin-left: auto;
@@ -15,7 +16,7 @@
 }
 
 @media screen and (max-width: 970px) {
-    section , image , .center1 {
+    image , .center1 {
         font-size: 9px;
         max-width: 100%;
         height: auto;

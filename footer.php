@@ -7,7 +7,7 @@
     <title>Footer</title>
 
     <!-- link -->
-    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+
     <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
     <link rel="stylesheet" type="text/css" href="assets/css/column.css">
 

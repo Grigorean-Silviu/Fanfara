@@ -34,9 +34,7 @@ if (isset($_POST['submit'])) {
 
     <!-- link -->
     <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/calendar.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
 
     <!-- meta -->
     <meta name="description" content="Contact magazin de instrumente pentru fanfara">
@@ -47,8 +45,6 @@ if (isset($_POST['submit'])) {
 <body>
 
 <?php include("navbar.php"); ?>
-
-
 
 <div class="header container">
     <h1>Contact</h1>
@@ -74,7 +70,7 @@ if (isset($_POST['submit'])) {
             </div>
             <div class="input-box">
                 <span class="details">Numarul de telefon</span>
-                <input type="number" name="number" placeholder="ex. 0774021042"  required>
+                <input type="text" name="number" placeholder="ex. 0774021042"  required>
             </div>
 
             <div class="input-box" >

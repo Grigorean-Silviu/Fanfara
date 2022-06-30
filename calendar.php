@@ -2,13 +2,14 @@
 // fusul orar
 date_default_timezone_set('Europe/Bucharest');
 
-// prev & next month
-if (isset($_GET['ym'])) {
+// anul si luna
+ if(isset($_GET['ym'])) {
     $ym = $_GET['ym'];
 } else {
     // This month
     $ym = date('Y-m');
 }
+
 
 // Check format
 $timestamp = strtotime($ym . '-01');
@@ -17,8 +18,13 @@ if ($timestamp === false) {
     $timestamp = strtotime($ym . '-01');
 }
 
+
+
 // Today
 $today = date('Y-m-d', time());
+
+
+
 
 // title
 $html_title = date('Y / m', $timestamp);
@@ -38,6 +44,7 @@ $next = date('Y-m', strtotime('+1 month', $timestamp));
 $day_count = date('t', $timestamp);
 $last_prev_day = Date("t", strtotime("first day of previous month"));
 
+
 // 0:Sun 1:Mon 2:Tue ...
 //$str = date('w', mktime(0, 0, 0, date('m', $timestamp), 1, date('Y', $timestamp)));
 $str = date('w', $timestamp);
@@ -56,7 +63,11 @@ for ($i = $n; $i > 0; $i--) {
 }
 
 for ( $day = 1; $day <= $day_count; $day++, $str++) {
-    $date = $ym . "-" . $day;
+    if($day>9){
+        $date = $ym . "-" . $day;
+    }else{
+        $date = $ym . "-0" . $day;
+    }
     if ($today == $date) {
         $week .= '<td class="today">' . $day;
     } else {
@@ -88,14 +99,17 @@ for ( $day = 1; $day <= $day_count; $day++, $str++) {
     <title>Calendar</title>
 
     <!-- link -->
-    <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
     <link rel="stylesheet" type="text/css" href="assets/css/calendar.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
 
     <!-- meta -->
     <meta name="description" content="Calendar">
     <meta name="keywords" content="fanfara, instrumente pentru incepatori, teorie, practica, instrumente de suflat,magazin de instrumente, magazin pentru fanfara, calendar">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/boostraq/css/bootstrap.css"   crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>

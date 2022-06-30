@@ -8,6 +8,7 @@
 
     <!-- link -->
     <link rel="stylesheet" type="text/css" href="assets/css/teorie.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
 
     <!-- meta -->
     <meta name="description" content="teorie si practica la instrumente pentru incepatori">
@@ -18,13 +19,12 @@
     <link rel="stylesheet" href="assets/boostraq/css/bootstrap.css"   crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
-
 </head>
 
 <body>
 
 <?php include("navbar.php"); ?>
+
 <div class="container">
 <div class="header container">
     <h1>Teorie</h1>

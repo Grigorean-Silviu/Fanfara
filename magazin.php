@@ -2,9 +2,10 @@
 
 $conn = mysqli_connect('internship.rankingcoach.com', 's.grigorean', 'LNUhpaktKZsKv4d', 's_grigorean', 13306) or die("connection Failed:" . mysqli_connect_error());
 
-
 session_start();
-$user_id = $_SESSION['user_id'];
+
+$user_id = $_SESSION['user_id'];/* id-ul utilizatorului logat */
+
 
 if(!isset($user_id)){
     header('location:magazin.php');
@@ -13,7 +14,7 @@ if(!isset($user_id)){
 if(isset($_GET['logout'])){
     unset($user_id);
     session_destroy();
-    header('location:login.php');
+    header('location:login.php');/*utilizatorul este scos*/
 };
 
 if(isset($_POST['add_to_cart'])){
@@ -26,10 +27,10 @@ if(isset($_POST['add_to_cart'])){
     $select_cart = mysqli_query($conn, "SELECT * FROM `cart` WHERE name = '$product_name' AND user_id = '$user_id'") or die('query failed');
 
     if(mysqli_num_rows($select_cart) > 0){
-        $message[] = 'product already added to cart!';
+        $message[] = 'Produsul este deja adaugat in cos!';
     }else{
         mysqli_query($conn, "INSERT INTO `cart`(user_id, name, price, image, quantity) VALUES('$user_id', '$product_name', '$product_price', '$product_image', '$product_quantity')") or die('query failed');
-        $message[] = 'product added to cart!';
+        $message[] = 'Produsul a fost adaugat!';
     }
 
 };
@@ -63,9 +64,6 @@ if(isset($_GET['delete_all'])){
 
     <!-- link -->
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/column.css">
     <link rel="stylesheet" href="assets/css/register.css">
 
     <!-- meta -->
@@ -114,7 +112,7 @@ if(isset($message)){
         <div class="flex">
             <a href="login.php" class="btn1">login</a>
             <a href="registrer.php" class="option-btn">register</a>
-            <a href="magazin.php?logout=<?php echo $user_id; ?>" onclick="return confirm('are your sure you want to logout?');" class="delete-btn">logout</a>
+            <a href="magazin.php?logout=<?php echo $user_id; ?>" onclick="return confirm('Esti sigur ca vrei sa iesi?');" class="delete-btn">logout</a>
         </div>
 
     </div>
@@ -133,7 +131,7 @@ if(isset($message)){
                     <form method="post" class="box" action="">
                         <img src="./assets/images/<?php echo $fetch_product['image']; ?>" alt="#">
                         <div class="name"><?php echo $fetch_product['name']; ?></div>
-                        <div class="price">$<?php echo $fetch_product['price']; ?>/-</div>
+                        <div class="price">$<?php echo $fetch_product['price']; ?></div>
                         <input type="number" min="1" name="product_quantity" value="1">
                         <input type="hidden" name="product_image" value="<?php echo $fetch_product['image']; ?>">
                         <input type="hidden" name="product_name" value="<?php echo $fetch_product['name']; ?>">
@@ -170,9 +168,9 @@ if(isset($message)){
                 while($fetch_cart = mysqli_fetch_assoc($cart_query)){
                     ?>
                     <tr>
-                        <td><img src="./assets/images/<?php echo $fetch_cart['image']; ?>" height="100" alt=""></td>
+                        <td><img src="./assets/images/<?php echo $fetch_cart['image']; ?>" height="100" alt="#"></td>
                         <td><?php echo $fetch_cart['name']; ?></td>
-                        <td>$<?php echo $fetch_cart['price']; ?>/-</td>
+                        <td>$<?php echo $fetch_cart['price']; ?></td>
                         <td>
                             <form action="" method="post">
                                 <input type="hidden" name="cart_id" value="<?php echo $fetch_cart['id']; ?>">
@@ -180,8 +178,8 @@ if(isset($message)){
                                 <input type="submit" name="update_cart" value="update" class="option-btn">
                             </form>
                         </td>
-                        <td>$<?php echo $sub_total = ($fetch_cart['price'] * $fetch_cart['quantity']); ?>/-</td>
-                        <td><a href="magazin.php?remove=<?php echo $fetch_cart['id']; ?>" class="delete-btn" onclick="return confirm('remove item from cart?');">remove</a></td>
+                        <td>$<?php echo $sub_total = ($fetch_cart['price'] * $fetch_cart['quantity']); ?></td>
+                        <td><a href="magazin.php?remove=<?php echo $fetch_cart['id']; ?>" class="delete-btn" onclick="return confirm('Doresti sa stergi din cos?');">remove</a></td>
                     </tr>
                     <?php
                     $grand_total += $sub_total;
@@ -192,14 +190,15 @@ if(isset($message)){
             ?>
             <tr class="table-bottom">
                 <td colspan="4">grand total :</td>
-                <td>$<?php echo $grand_total; ?>/-</td>
-                <td><a href="magazin.php?delete_all" onclick="return confirm('delete all from cart?');" class="delete-btn <?php echo ($grand_total > 1)?'':'disabled'; ?>">delete all</a></td>
+                <td>$<?php echo $grand_total; ?></td>
+                <td><a href="magazin.php?delete_all" onclick="return confirm('Doresti sa stergi tot din cos?');" class="delete-btn <?php echo ($grand_total > 1)?'':'disabled'; ?>">delete all</a></td>
+
             </tr>
             </tbody>
         </table>
 
         <div class="cart-btn">
-            <a href="#" class="btn1 <?php echo ($grand_total > 1)?'':'disabled'; ?>">proceed to checkout</a>
+            <a href="#" class="btn1 <?php echo ($grand_total > 1)?'':'disabled'; ?>">proceed to checkout</a> /*Daca $grand_total nu e > 1 => disable*/
         </div>
 
     </div>

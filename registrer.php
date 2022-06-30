@@ -1,5 +1,5 @@
 <?php
-include 'config.php';
+
 $conn = mysqli_connect('internship.rankingcoach.com', 's.grigorean', 'LNUhpaktKZsKv4d', 's_grigorean', 13306) or die("connection Failed:" . mysqli_connect_error());
 
 if (isset($_POST['submit'])){
@@ -12,7 +12,7 @@ if (isset($_POST['submit'])){
 
 
     if(mysqli_num_rows($select) > 0){
-        echo "<script>alert('user already exist.')</script>";
+        echo "<script>alert(' Ne pare rau, dar acest utilizator exista deja!.')</script>";
     }else{
         mysqli_query($conn, "INSERT INTO `user_form`(name, email, password) VALUES ('$name','$email','$password')") or die('query failed');
         $message[] = 'registred successfully!';

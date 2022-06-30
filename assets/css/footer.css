@@ -1,3 +1,7 @@
+div a{
+    text-decoration: none;
+    color: white;
+}
 
 .footer-dark {
 
@@ -36,15 +40,13 @@
 }
 
 .first a:hover {
-    color: #fff;
+    color: #a8a1a1;
     transition: 0.2s;
-    text-shadow: 1px 1px 20px rgba(0, 0, 0, 1);
     text-decoration: none
 
 }
 
 .title {
-
     letter-spacing: 3px;
     position: relative;
     margin-bottom: 20px;
@@ -88,21 +90,16 @@
 }
 
 .second a:hover {
-    color: #fff;
-    transition: 0.2s;
-    text-shadow: 1px 1px 20px rgba(0, 0, 0, 1);
+    color: #b7a4a4;
     text-decoration: none
 
 }
 
 .third {
-
-
     color: rgb(206, 206, 206);
     font-family: 'Poppins', sans-serif;
     text-align: right;
 }
-
 
 .third h4 {
     /*font-size: 20px;*/
@@ -113,7 +110,6 @@
     color: #fff;
     padding-bottom: 0.5em;
 }
-
 
 .third h4::after {
     content: '';
@@ -131,7 +127,6 @@
     padding-bottom: 15px;
 }
 
-
 .third a {
     color: rgb(206, 206, 206);
     text-decoration: none;
@@ -141,23 +136,17 @@
     transition: 0.2s;
 }
 
-
 .third a:hover {
     color: #fff;
     transition: 0.2s;
     text-shadow: 1px 1px 20px rgba(0, 0, 0, 1);
 }
 
-.line {
-    height: 2px;
-    background-color: rgb(206, 206, 206);
-    width: 100%;
-}
+
 
 .logorc{
 
     height: 80px;
-
 
 }
 
@@ -179,11 +168,7 @@
         transform: translateX(-50%);
         left: 50%;
     }
-    .width-33 {
-        width: 33.33%;
 
-
-    }
 }
 @media screen and (max-width: 768px) {
     .width-33 {

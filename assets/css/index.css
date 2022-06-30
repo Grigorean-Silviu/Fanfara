@@ -40,9 +40,6 @@ div a{
     border-radius: 50%;
 }
 
-
-
-
 @media screen and (min-width: 657px) {
     .header {
         font-size: 80px;
