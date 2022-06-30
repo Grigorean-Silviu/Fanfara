@@ -4,24 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="28.06.2022">
-      <change afterPath="$PROJECT_DIR$/assets/css/magazin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/fanf1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/product-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/register2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registrer.php" afterDir="false" />
+    <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="30.06.2022">
+      <change afterPath="$PROJECT_DIR$/assets/images/produs-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/produs-4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/column.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/column.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/despre.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/despre.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/magazin.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/magazin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/php/component.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/upload/produs1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/upload/produs2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/upload/produs3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/produs-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/upload/produs4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/produs-3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/despre.php" beforeDir="false" afterPath="$PROJECT_DIR$/despre.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fn.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_shopping.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/magazin.php" beforeDir="false" afterPath="$PROJECT_DIR$/magazin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practica.php" beforeDir="false" afterPath="$PROJECT_DIR$/practica.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/registrer.php" beforeDir="false" afterPath="$PROJECT_DIR$/registrer.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +96,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -180,14 +187,7 @@
       <workItem from="1656010077622" duration="12735000" />
       <workItem from="1656322049948" duration="28739000" />
       <workItem from="1656442039809" duration="418000" />
-      <workItem from="1656443215300" duration="24284000" />
-    </task>
-    <task id="LOCAL-00011" summary="07/04/2022">
-      <created>1649335946473</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1649335946473</updated>
+      <workItem from="1656443215300" duration="35547000" />
     </task>
     <task id="LOCAL-00012" summary="08/04/2022">
       <created>1649416163867</created>
@@ -525,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656422820050</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="30.06.2022">
+      <created>1656537977253</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1656537977254</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,7 +551,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="upload fanf pic" />
     <MESSAGE value="14.04.2022" />
     <MESSAGE value="15.04.2022" />
     <MESSAGE value="19.04.2022" />
@@ -569,6 +575,7 @@
     <MESSAGE value="24.06.2022" />
     <MESSAGE value="27.06.2022" />
     <MESSAGE value="28.06.2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="28.06.2022" />
+    <MESSAGE value="30.06.2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="30.06.2022" />
   </component>
 </project>

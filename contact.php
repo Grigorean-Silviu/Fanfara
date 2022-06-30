@@ -1,4 +1,29 @@
+<?php
 
+if (isset($_POST['submit'])) {
+    $firstName = $_POST['firstName'];
+    $lastName = $_POST['lastName'];
+    $gender = $_POST['gender'];
+    $email = $_POST['email'];
+    $number = $_POST['number'];
+    $text = $_POST['text'];
+    $conn = mysqli_connect('internship.rankingcoach.com', 's.grigorean', 'LNUhpaktKZsKv4d', 's_grigorean', 13306) or die("connection Failed:" . mysqli_connect_error());
+    // Database connection
+
+    $select = mysqli_query($conn, "SELECT * FROM `contact` WHERE text = '$text'") or die('query failed');
+
+    if(mysqli_num_rows($select) > 0){
+        echo "<script>alert('Acest text a mai fost trimis de un utilizator')</script>";
+    }else{
+        mysqli_query($conn, "INSERT INTO `contact`(firstName, lastName, gender, email, number, text) VALUES ('$firstName','$lastName','$gender', '$email', '$number', '$text')") or die('query failed');
+        echo "<script>alert('Textul a fost trimis')</script>";
+
+
+    }
+
+
+}
+?>
 <!DOCTYPE html>
 <html lang="ro">
 <head>
@@ -23,6 +48,8 @@
 
 <?php include("navbar.php"); ?>
 
+
+
 <div class="header container">
     <h1>Contact</h1>
     <div class="topleft "><img class="cheiasol" src="assets/images/cheiasol.png" alt="cheia sol"></div>
@@ -30,33 +57,31 @@
 
 <!-- Form -->
 <div class="container">
-    <div class="title1">Inregistrare</div>
+    <div class="title1">Contact</div>
     <form action="" method="POST">
         <div class="user-details">
             <div class="input-box">
                 <span class="details">Numele</span>
-                <input type="text" name="username" placeholder="ex. Grigorean" value="<?php echo $username;?>" required>
+                <input type="text" name="firstName" placeholder="ex. Grigorean"  required>
             </div>
             <div class="input-box">
                 <span class="details">Prenumele</span>
-                <input type="text" name="firstName" placeholder="ex. Silviu" value="" required>
+                <input type="text" name="lastName" placeholder="ex. Silviu"  required>
             </div>
             <div class="input-box">
                 <span class="details">Email</span>
-                <input type="email" name="email" placeholder="ex. @gmail.com" value="<?php echo $email;?>" required>
+                <input type="email" name="email" placeholder="ex. @gmail.com"  required>
             </div>
             <div class="input-box">
                 <span class="details">Numarul de telefon</span>
-                <input type="number" name="number" placeholder="ex. 0774021042" value="" required>
+                <input type="number" name="number" placeholder="ex. 0774021042"  required>
             </div>
-            <div class="input-box">
-                <span class="details">Parola</span>
-                <input type="password" name="password" placeholder="Scrie o parola" value="<?php echo $_POST['password'];?>" required>
+
+            <div class="input-box" >
+                <span class="details">Text</span>
+                <input name="text" placeholder="Scrie ceva..." style="height:100px" required>
             </div>
-            <div class="input-box">
-                <span class="details">Comfirma Parola</span>
-                <input type="password" name="cpassword" placeholder="Rescrie Parola" value="<?php echo $_POST['cpassword'];?>" required>
-            </div>
+
         </div>
         <div class="gender-details">
             <input type="radio" name="gender"  id="dot-1" value="m" required>
@@ -73,6 +98,7 @@
                 </label>
             </div>
         </div>
+
         <div class="button">
             <input type="submit" name="submit" value="Submit" required>
         </div>

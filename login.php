@@ -25,18 +25,33 @@ if(isset($_POST['submit'])){
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
+
+    <!-- logo -->
+    <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
+
+    <title>Login</title>
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="assets/css/register.css">
 
 </head>
 <body>
+
+
+<?php include("navbar.php"); ?>
+
+<div class="header container">
+
+    <h1>Login</h1>
+    <div class="topleft "><img class="cheiasol"  src="assets/images/cheiasol.png" alt="cheia sol"></div>
+
+</div>
+
 
 <?php
 if(isset($message)){
@@ -45,18 +60,22 @@ if(isset($message)){
     }
 }
 ?>
-
+<div class="container">
 <div class="form-container">
 
     <form action="" method="post">
         <h3>login now</h3>
         <input type="email" name="email" required placeholder="enter email" class="box">
         <input type="password" name="password" required placeholder="enter password" class="box">
-        <input type="submit" name="submit" class="btn" value="login now">
-        <p>don't have an account? <a href="register.php">register now</a></p>
+        <input type="submit" name="submit" class="btn1" value="login now">
+        <p>don't have an account? <a href="registrer.php">register now</a></p>
     </form>
 
 </div>
+</div>
+
+<!-- footer -->
+<?php include("footer.php"); ?>
 
 </body>
 </html>

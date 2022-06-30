@@ -25,6 +25,10 @@ if (isset($_POST['submit'])){
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <!-- logo -->
+    <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
+
     <title>Registrer</title>
 
     <!-- css file -->
@@ -50,7 +54,7 @@ if (isset($message)){
         <input type="email" name="email"  required placeholder="enter email" class="box">
         <input type="password" name="password" required placeholder="enter password" class="box">
         <input type="password" name="cpassword" required placeholder="confirm password" class="box">
-        <input type="submit" name="submit"  class="btn" value="register now">
+        <input type="submit" name="submit"  class="btn1" value="register now">
         <p>already have an account? <a href="login.php">Login now</a> </p>
     </form>
 </div>

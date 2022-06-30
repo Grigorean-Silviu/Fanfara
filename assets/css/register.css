@@ -17,19 +17,6 @@
     text-decoration: none;
 }
 
-*::-webkit-scrollbar{
-    width: 10px;
-    height: 5px;
-}
-
-*::-webkit-scrollbar-track{
-    background-color: transparent;
-}
-
-*::-webkit-scrollbar-thumb{
-    background-color: var(--blue);
-}
-
 body{
     background-color: var(--light-bg);
 }
@@ -40,7 +27,7 @@ body{
     padding:15px 10px;
     background-color: var(--white);
     text-align: center;
-    z-index: 1000;
+    z-index: -1000;
     box-shadow: var(--box-shadow);
     color:var(--black);
     font-size: 20px;
@@ -48,7 +35,7 @@ body{
     cursor: pointer;
 }
 
-.btn,
+.btn1,
 .delete-btn,
 .option-btn{
     display: inline-block;
@@ -60,13 +47,13 @@ body{
     text-transform: capitalize;
 }
 
-.btn:hover,
+.btn1:hover,
 .delete-btn:hover,
 .option-btn:hover{
     background-color: var(--black);
 }
 
-.btn{
+.btn1{
     background-color: var(--blue);
     margin-top: 10px;
 }
@@ -80,12 +67,13 @@ body{
 }
 
 .form-container{
-    min-height: 100vh;
+
     display: flex;
     align-items: center;
     justify-content: center;
     padding:20px;
     padding-bottom: 70px;
+    padding-top: 70px;
 }
 
 .form-container form{
@@ -127,12 +115,7 @@ body{
     text-decoration: underline;
 }
 
-.container{
-    padding:0 20px;
-    margin:0 auto;
-    max-width: 1200px;
-    padding-bottom: 70px;
-}
+
 
 .container .heading{
     text-align: center;
@@ -142,7 +125,7 @@ body{
     color:var(--black);
 }
 
-.container .user-profile{
+.user-profile{
     padding:20px;
     text-align: center;
     border:var(--border);
