@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2dfd5014-b38f-4c7c-91b7-758b6a08be1e" name="Changes" comment="01.06.2022">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calendar.php" beforeDir="false" afterPath="$PROJECT_DIR$/calendar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/contact.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,14 +167,7 @@
       <workItem from="1656442039809" duration="418000" />
       <workItem from="1656443215300" duration="35661000" />
       <workItem from="1656587290134" duration="22640000" />
-      <workItem from="1656649966949" duration="145000" />
-    </task>
-    <task id="LOCAL-00017" summary="upload fanf pic">
-      <created>1649763575611</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1649763575611</updated>
+      <workItem from="1656649966949" duration="697000" />
     </task>
     <task id="LOCAL-00018" summary="upload fanf pic">
       <created>1649850296250</created>
@@ -512,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656626756706</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="01.06.2022">
+      <created>1656650127233</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1656650127234</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
