@@ -13,17 +13,14 @@ date_default_timezone_set('Europe/Bucharest');
 
 // Check format
 $timestamp = strtotime($ym . '-01');
+
 if ($timestamp === false) {
     $ym = date('Y-m');
     $timestamp = strtotime($ym . '-01');
 }
 
-
-
 // Today
 $today = date('Y-m-d', time());
-
-
 
 
 // title
@@ -42,7 +39,7 @@ $next = date('Y-m', strtotime('+1 month', $timestamp));
 
 // Number of days in the month
 $day_count = date('t', $timestamp);
-$last_prev_day = Date("t", strtotime("first day of previous month"));
+$last_prev_day = Date("t", strtotime("last day of previous month"));
 
 
 // 0:Sun 1:Mon 2:Tue ...
